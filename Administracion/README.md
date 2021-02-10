@@ -1,6 +1,6 @@
 # Administracion
 
-1. Linux
+1. [Linux](https://github.com/HerculesRD/HerculesDocs/tree/main/Administracion/Linux)
 	* [Tools](https://github.com/HerculesRD/HerculesDocs/tree/main/Administracion/Linux#tools)
 	* [Comandos utiles (1)](https://github.com/HerculesRD/HerculesDocs/tree/main/Administracion/Linux#comandos-utiles-1)
 	* [Portknocking](https://github.com/HerculesRD/HerculesDocs/tree/main/Administracion/Linux#port-knocking)
