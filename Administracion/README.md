@@ -29,14 +29,14 @@ cd directorioNoExistente 2>/dev/null
 
 ### Buscar archivos
 #### Find
-```bash
+```Shell
 $find / #ruta desde donde se busca (recursivo)
-$find / -name nombreFichero
-$find / -type f #f=file, d=directorio
-$find / -perm 660 #permisos exactos
-$find / -perm u=r #otra notacion
-$find / -perm /660 #al menos uno de estos permisos es verdad
-$find / -perm -u=r #AL MENOS este permiso
+find / -name nombreFichero
+find / -type f #f=file, d=directorio
+find / -perm 660 #permisos exactos
+find / -perm u=r #otra notacion
+find / -perm /660 #al menos uno de estos permisos es verdad
+find / -perm -u=r #AL MENOS este permiso
 find / -size +100c #MAS de 100 bytes. Puede usarse "-", k (kb) o m (mb)
 find / -user owner
 ```
