@@ -1,6 +1,6 @@
 # HerculesDocs | HOME
 
-1.	Administracion
+1.	[Administracion](https://github.com/HerculesRD/HerculesDocs/tree/main/Administracion)
 1.	Recoleccion de informacion
 1.	Enumeracion
 1.	Exploiting
