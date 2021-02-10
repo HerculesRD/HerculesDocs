@@ -61,12 +61,19 @@ grep -m2 #limita la salida en cantidad de lineas
 #### chmod
 
 ```bash
-
+chmod 0777 archivo.txt (-rwxrwxrwx)
+chmod o=rwx archivo.txt (-------rwx)
+chmod a+r archivo.txt (-r--r--r--)
+chmod -R #que mire tambien los subdirectorios de la ruta
+chmod -v #muestra cada fichero procesado
+chmod -c #muestra cada fichero procesado que tuvo cambios
 ```
 
 #### chown
 
 ```bash
+chown user:group file.txt
+-R -v -c #igual que chmod
 ```
 
 ### Agregar usuarios
@@ -74,16 +81,21 @@ grep -m2 #limita la salida en cantidad de lineas
 #### adduser
 
 ```bash
+adduser usuario
+passwd usuario
 ```
 
 #### addgroup
 
 ```bash
+addgroup grupo
 ```
 
 #### usermod
 
 ```bash
+usermod -d /home/path usuario #le das un home 
+usermod -s /bin/sh usuario #modificar la shell
 ```
 
 ### background jobs
