@@ -1,7 +1,7 @@
 # Administracion
 
 1. Linux
-	* Tools
+	* [Tools](https://github.com/HerculesRD/HerculesDocs/tree/main/Administracion/Linux#tools)
 	* Comandos utiles (1)
 	* Portknocking
 	* REGEX
