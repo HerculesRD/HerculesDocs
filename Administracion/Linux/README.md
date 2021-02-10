@@ -123,22 +123,49 @@ fg
 
 #### awk
 
+```bash
+```
+
 #### sed
+
+```bash
+```
 
 #### cut
 
+```bash
+```
+
 #### tr
 
+```bash
+```
+
 ### echo
+
+```bash
+```
 
 ### Iteracion
 
 #### watch
 
+```bash
+```
+
 #### Crontab
+
+```bash
+```
 
 ### Formato archivos
 
 #### xxd
 
+```bash
+```
+
 #### gcc
+
+```bash
+```
