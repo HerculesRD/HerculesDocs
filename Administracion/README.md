@@ -9,18 +9,18 @@
 	* IPTables
 1. Windows
 
-## Linux
+# Linux
 
-### Tools
+## Tools
 
-#### Batcat | cat con esteroides
+### Batcat | cat con esteroides
 
 [Github Link](https://github.com/sharkdp/bat)
 
-### Comandos utiles (1)
+## Comandos utiles (1)
 
-#### Buscar archivos
+### Buscar archivos
 
-'''bash
+```bash
 find / #ruta desde donde se busca (recursivo)
-'''
+```
