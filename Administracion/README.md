@@ -6,5 +6,6 @@
 	* Portknocking
 	* REGEX
 	* Comandos Utiles (2)
+	* Bash scripting
 	* IPTables
 1. Windows
