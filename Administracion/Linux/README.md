@@ -1,4 +1,4 @@
-# [Linux](https://github.com/HerculesRD/HerculesDocs/tree/main/Administracion/Linux)
+# Linux
 
 * [Tools](https://github.com/HerculesRD/HerculesDocs/tree/main/Administracion/Linux#tools)
 * [Comandos utiles (1)](https://github.com/HerculesRD/HerculesDocs/tree/main/Administracion/Linux#comandos-utiles-1)
