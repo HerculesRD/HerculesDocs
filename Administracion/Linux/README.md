@@ -254,4 +254,46 @@ $watch -n 1 'ls -la' #cada 1 segundo
 
 ## Bash scripting
 
+### Inicio
+
+```bash
+#!/bin/bash
+```
+
+### Funciones
+
+#### Interrupcion CTRL+C
+
+```bash
+trap ctrl_c INT
+
+function ctrl_c {
+	echo -e "\n\n[*]Exiting...\n"
+	exit 0
+}
+```
+
+### Control de tiempo
+
+```bash
+timeout 1 bash -c "echo 'Hola'"
+```
+
+### Logica
+
+#### usar && como IF
+
+```bash
+for i in $(seq 1 10) do:
+	cat file | grep $i >/dev/null && echo "Se encontro el numero $i"
+done
+```
+
+### Cursor
+
+```bash
+tput civis #oculta el cursor
+tput cnorm #muestra el cursor
+```
+
 ## IPTables
