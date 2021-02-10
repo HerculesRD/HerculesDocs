@@ -46,6 +46,11 @@ sudo updatedb #quizas necesitemos actualizar la db antes
 locate nombreFichero
 ```
 
+#### Which
+
+```bash
+```
+
 ### Grep
 
 ```bash
@@ -69,3 +74,82 @@ grep -m2 #limita la salida en cantidad de lineas
 ```bash
 
 ```
+
+#### chown
+
+```bash
+```
+
+### Agregar usuarios
+
+#### adduser
+
+```bash
+```
+
+#### addgroup
+
+```bash
+```
+
+#### usermod
+
+```bash
+```
+
+### background jobs
+
+```bash
+&
+bg
+kill
+fg
+```
+
+### Variables de entorno
+
+#### bash
+
+```bash
+```
+
+#### fish
+
+```bash
+```
+
+## Port Knocking
+
+```bash
+```
+
+## RegEx
+
+```bash
+```
+
+## Comandos utiles (2)
+
+### Formato texto
+
+#### awk
+
+#### sed
+
+#### cut
+
+#### tr
+
+### echo
+
+### Iteracion
+
+#### watch
+
+#### Crontab
+
+### Formato archivos
+
+#### xxd
+
+#### gcc
