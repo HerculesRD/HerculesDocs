@@ -30,7 +30,7 @@ cd directorioNoExistente 2>/dev/null
 ### Buscar archivos
 #### Find
 ```bash
-$ find / #ruta desde donde se busca (recursivo)
+find / #ruta desde donde se busca (recursivo)
 find / -name nombreFichero
 find / -type f #f=file, d=directorio
 find / -perm 660 #permisos exactos
@@ -46,3 +46,26 @@ sudo updatedb #quizas necesitemos actualizar la db antes
 locate nombreFichero
 ```
 
+### Grep
+
+```bash
+grep palabra file.txt  #busca la palabra dentro del archivo
+grep -i #ignorar min y may
+grep -r #recursivo
+grep -w #solo match la palabra
+grep -v #excluir en vez de grep
+grep -x #matchear SOLO la linea
+grep -l #solo muestra los ficheros que matcheo
+grep -c #cuenta la cantidad de matchs
+grep -C 2 #imprime las 2 lineas antes y despues del march
+grep -n #muestra el numero de las lineas
+grep -m2 #limita la salida en cantidad de lineas
+```
+
+### Permisos
+
+#### chmod
+
+```bash
+
+```
