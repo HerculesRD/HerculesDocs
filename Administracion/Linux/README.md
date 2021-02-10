@@ -38,6 +38,7 @@ locate nombreFichero
 #### Which
 
 ```bash
+which bash #Cual es el path absoluto del binario al que llamas de manera relativa
 ```
 
 ### Grep
@@ -101,9 +102,13 @@ usermod -s /bin/sh usuario #modificar la shell
 ### background jobs
 
 ```bash
-&
+nmap IP -oN salida.txt & #hace la tarea en el background
+
 bg
-kill
+
+usermod -d /home/path usuario #le das un home 
+usermod -s /bin/sh usuario #modificar la shell
+
 fg
 ```
 
@@ -112,21 +117,49 @@ fg
 #### bash
 
 ```bash
+export variable_de_entorno=valor
 ```
 
 #### fish
 
 ```bash
+set -x variable de entorno valor
 ```
 
 ## Port Knocking
 
 ```bash
+knock IP port1 port2 port3 && ssh -i id_rsa IP
 ```
 
 ## RegEx
 
 ```bash
+. #un caracter
+? #el anterior caracter aparece 0 o 1 vez
+* #el anterior caracter aparece 0 o mas veces
++ #el anterior caracter aparece 1 o mas veces
+{n} #el anterior caracter aparece exactamente n veces
+{n,m} #el anterior caracter aparece al menos n veces y no mas de m veces
+{n,} #aparece n o mas veces
+[asd] #el caracter es uno incluido entre los corchetes
+[^asd] #el caracter NO es uno de los incluidos entre los corchetes
+[a-d] #el - funciona estableciendo un rango
+() #agrupa
+| #or
+^ #Primer caracter de la linea
+$ #ultimo caracter de la linea
+\< #al empezar la palabra
+\> #al terminar la palabra
+a-z A-Z #alfabeto
+\d #digitos del 0 al 9
+\D #cualquier no digito
+#escapes
+\. 
+\?
+\s #espacio
+\S #sin espacios
+\i #case insensitive
 ```
 
 ## Comandos utiles (2)
@@ -136,26 +169,61 @@ fg
 #### awk
 
 ```bash
+awk patron {accion} # sintaxis
+
+awk '{print}' file.txt #imprimir todas las lineas del fichero con saltos de linea
+awk '/admin/ {print}' file.txt #print lineas que matchea con "admin" (podes usar REGEX)
+awk '{! /admin/ print}' file.txt #print lineas que NO matcheen con "admin"
+awk '{print $5,$4}' file.txt #print columna 5 y 4 en ese orden
+awk '{print $1 ":" $4}' file.txt #print colum 1 y 4 separadas por :
+awk '{print $NF}' file.txt #imprimir ultima columna de cada linea
+awk '{print NR,$0}' file.txt #print las lineas numeradas
+awk -F ';' '{print $3}' file.txt #print tercera columna, delimitar con ;
+
+awk '{length}' file.txt #largo del texto
+awk '{tolower}' file.txt #convierte en minusculas
+awk '{toupper}' file.txt #convierte todo en mayusc
+awk '{printf}' file.txt #imprime sin saltos de linea
 ```
 
 #### sed
 
 ```bash
+sed 'operacion' file.txt #sintaxis
+
+sed 's/chau/hola/g' file.txt #reemplazar chau por hola cada cez en el texto
+#podemos usar /gi en vez de /g para no tomar en cuenta min o may
+sed 's/\s+/ /g' file.txt #reempazar 2 o mas espacios por uno solo
+sed 's/^/*/g' file.txt #poner un * al principio de cada linea
+sed '2,7 d' file.txt > file2.txt #eliminar las lineas 2 a 7
+
+sed '/AAA/!d; /BBB/!d; /CCC/!d' file.txt #buscar AAA, BBB o CCC
+sed '/AAA.*BBB.*CCC/!d' file.txt #buscar AAA Y BBB Y CCC
+
 ```
 
 #### cut
 
 ```bash
+$cut -d ':' -f 3 abc.txt #muestra la tercer cadena separando por :
+#por defecto usa el tabulador como separador
 ```
 
 #### tr
 
 ```bash
+$tr 'B' 'V' < file.txt > file2.txt #reemplaza B por V y lo guarda en file2
+$tr [:upper:] [:lower:] < file.txt > file2.txt #reemplaza mayus por min
+$tr -d '0-9' < file.txt > file2.txt #borrar todos los numeros del fichero
 ```
 
 ### echo
 
 ```bash
+echo -n #sin salto de linea
+
+echo $0 #devuelve el codigo de estado, que es el valor final del ultimo retorno.
+#0 para correcto, 1 para incorrecto
 ```
 
 ### Iteracion
@@ -163,6 +231,8 @@ fg
 #### watch
 
 ```bash
+#repite un comando cada cierto tiempo
+$watch -n 1 'ls -la' #cada 1 segundo
 ```
 
 #### Crontab
@@ -181,3 +251,7 @@ fg
 
 ```bash
 ```
+
+## Bash scripting
+
+## IPTables
