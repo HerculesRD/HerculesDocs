@@ -3,10 +3,10 @@
 1. Linux
 	* Tools
 	* Comandos utiles (1)
-	1. Portknocking
-	1. REGEX
-	1. Comandos Utiles (2)
-	1. IPTables
+	* Portknocking
+	* REGEX
+	* Comandos Utiles (2)
+	* IPTables
 1. Windows
 
 ## Tools
