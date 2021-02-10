@@ -29,7 +29,7 @@ cd directorioNoExistente 2>/dev/null
 
 ### Buscar archivos
 #### Find
-```Shell
+```console
 $find / #ruta desde donde se busca (recursivo)
 find / -name nombreFichero
 find / -type f #f=file, d=directorio
