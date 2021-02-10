@@ -1,4 +1,9 @@
-# HerculesDocs
- Anotador
+# HerculesDocs | HOME
 
-Esto es un test
+Administracion
+Recoleccion de informacion
+Enumeracion
+Exploiting
+PostExploiting
+Reports
+Varios
