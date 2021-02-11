@@ -129,3 +129,35 @@ sudo iptables -A INPUT --dport 21
 sudo iptables -A OUTPUT --sport 21
 ```
 
+## Accion
+
+### Descarta paquete
+
+```bash
+sudo iptables -A Input -p tcp --dport 21 -j DROP
+```
+
+### Rechaza paquete (responde)
+
+```bash
+sudo iptables -A Input -p tcp --dport 21 -j REJECT
+```
+
+### Acepta paquetes
+
+```bash
+sudo iptables -A Input -p tcp --dport 21 -j ACCEPT
+```
+
+### Modifico la IP de destino (Prerouting)
+
+```bash
+sudo iptables -A Input -p tcp --dport 21 -j DNAT -to x.x.x.x
+```
+
+### Modifico la IP de origen (Postrouting)
+
+```bash
+sudo iptables -A Input -p tcp --dport 21 -j SNAT -to x.x.x.x
+```
+
