@@ -1,5 +1,5 @@
 # Recoleccion de informacion
-* [Informacion DNS](https://github.com/HerculesRD/HerculesDocs/tree/main/Recoleccion de informacion#informacion-dns)
+* [Informacion DNS](https://github.com/HerculesRD/HerculesDocs/tree/main/Recoleccion%20de%20informacion#informacion-dns)
 * [Correos](https://github.com/HerculesRD/HerculesDocs/tree/main/Recoleccion-de-informacion#Correos)
 * [Tracking](https://github.com/HerculesRD/HerculesDocs/tree/main/Recoleccion-de-informacion#Tracking)
 * [Buscadores](https://github.com/HerculesRD/HerculesDocs/tree/main/Recoleccion-de-informacion#Buscadores)
