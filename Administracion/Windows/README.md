@@ -1,5 +1,11 @@
 # Windows
 
+## Tools
+
+### Monitor de recursos
+
+[Process Hacker](https://processhacker.sourceforge.io/)
+
 ## Comandos utiles
 
 ### whoami
@@ -54,8 +60,150 @@ Copy-Item <file.org> <file.cpy>
 Remove-Item <file>
 ```
 
+```powershell
+Clear-Content file.txt #conserva el archivo pero borra lo de adentro
+```
+
+#### Busqueda de archivos
+
+```cmd
+findstr /spin "string" *.* 
+```
+
 ### Ocultar errores
 
 ```powershell
 Get-Content /etc/passwd -ErrorAction SilentlyContinue
 ```
+
+## Permisos
+
+### Politica de ejecucion del usuario
+
+```powershell
+#Que scripts podemos ejecutar
+Get-ExecutionPolicy
+#Niveles: Restricted (solo comandos) - All signed - Remote signed (signed+local script)
+# - Unrestricted
+
+Set-ExecutionPolicy Unrestricted
+```
+
+## Manejo de procesos y servicios
+
+### Procesos
+
+#### Mostrar Procesos
+
+```powershell
+Get-Process
+```
+
+#### Parar procesos
+
+```powershell
+Stop-Process note*
+```
+
+### Servicios
+
+#### Mostrar Servicios
+
+```powershell
+Get-Service
+```
+
+## Logs
+
+### Logs de sistema
+
+```powershell
+Get-EventLog -Log "Application"
+#En vez de log tambien tenemos:
+#-Verbose
+#-Debug
+#-ErrorAction
+#-ErrorVariable
+#-WarningAction
+#-WarningVariable
+#-OutBuffer
+#-OutVariable
+
+Get-EventLog -LogName System -After "DD/MM/YYYY" -EntryType Error
+```
+
+### Terminal log (solo de esa sesion)
+
+```powershell
+Clear-History -Command *help* #podemos elegir si todos o el historial de ciertos comandos
+```
+
+## Informacion de sistema
+
+### Sysinfo
+
+```cmd
+systeminfo
+hostname
+whoami /all
+```
+
+### Usuarios y grupos
+
+#### Local
+
+```cmd
+net users
+net localgroups
+net localgroups Administrators
+net user hax0r
+```
+
+### Conexiones de red
+
+```cmd
+ipconfig /all
+route print
+arp -A
+netstat -ano
+```
+
+#### domain
+
+```cmd
+net user hax0r /domain
+net group Administrators /domain
+```
+
+### Dispositivos
+
+#### USB Conectados
+
+```powershell
+Get-ItemProperty -ea 0 hklm:\system\currentcontrolset\enum\usbstor\*\* | select FriendlyName, PSChildName	
+```
+
+## RDP
+
+### Conexion
+
+```cmd
+$xfreerdp /u:user /g:grupo /p:password /v:IP
+```
+
+## Firmar certificado
+
+### Localmente
+
+```powershell
+$cert=Get-ChildItem -Path Cert:\CurrentUser\My -CodeSigningCert
+Set-AuthenticodeSignature -FilePath script.ps1 -Certificate $cert
+```
+
+### Firmar con root authority
+
+```powershell
+Set-AuthenticodeSignature -FilePath c:\scripts\script.ps1 -Certificate $cert -IncludeChain All -TimestampServer "http://timestamp.fabrikam.com/scripts/timstamper.dll"
+```
+
+## CMDLets
