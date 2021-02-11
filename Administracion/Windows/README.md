@@ -8,6 +8,20 @@
 
 ## Comandos utiles
 
+### HELP!
+
+#### Que es esto
+
+```powershell
+Get-Help Get-Process
+```
+
+#### Mostrar los diferentes comandos disponibles
+
+```powershell
+Get-Command *-service*
+```
+
 ### whoami
 
 #### cmd
@@ -207,3 +221,9 @@ Set-AuthenticodeSignature -FilePath c:\scripts\script.ps1 -Certificate $cert -In
 ```
 
 ## CMDLets
+
+### filtrado
+
+```powershell
+Get-Service | Where-Object ($_.Status -eq "Stopped")
+```
