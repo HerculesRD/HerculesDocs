@@ -275,12 +275,12 @@ $watch -n 1 'ls -la' #cada 1 segundo
 #### Interrupcion CTRL+C
 
 ```bash
-trap ctrl_c INT
-
 function ctrl_c {
 	echo -e "\n\n[*]Exiting...\n"
 	exit 0
 }
+
+trap ctrl_c INT
 ```
 
 ### Control de tiempo
@@ -305,6 +305,95 @@ done
 tput civis #oculta el cursor
 tput cnorm #muestra el cursor
 ```
+
+### Color
+
+```bash
+YELLOW='\033[1;33m'
+NC='\033[0m'
+echo -e "${YELLOW}Color${NC}" #NC es para NO COLOR
+```
+
+### Parametros
+
+#### getopts
+
+```bash
+getopts ":H:l" opt
+
+## Los ":" a la derecha indican si necesita argumento
+
+## H: 	requiere argumento
+## l 	no requiere argumento
+
+####ejemplo
+while getopts ":H:l" opt; do
+        case "${opt}" in
+
+                H)
+                        #hace algo
+                        ;;
+
+                l)
+                        #hace algo
+                        ;;
+
+                *)
+                        #hace esto por default
+                        ;;
+
+        esac
+done
+```
+
+#### obteniendo un argumento de una opcion
+
+```bash
+while getopts ":H:" opt; do
+        case "${opt}" in
+
+                H)
+                        var=${OPTARG}
+                        ;;
+## etc
+```
+
+#### simple
+
+```bash
+# Para comprobar si la cantidad de argumentos es 0
+if [ $# -eq 0 ]; then
+
+#Saber si el primer argumento es igual a 0
+if [ $1 -eq 0 ]; then
+
+if [ ${10} -eq 0 ]; then #para luego del 9no argumento se cierran asi
+
+#todos los argumentos en un solo string
+echo $*
+
+```
+
+### Datos del script
+
+#### nombre del script
+
+```bash
+echo el nombre del script es $0
+```
+
+#### PID del script
+
+```bash
+echo este es el PID del script, $$
+```
+
+#### Ultimo valor de retorno (return code)
+
+```bash
+echo el ultimo ret code fue $?
+```
+
 
 ## IPTables
 
