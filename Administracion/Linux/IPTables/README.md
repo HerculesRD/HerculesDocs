@@ -83,3 +83,49 @@ sudo iptables -A OUTPUT
 ```bash
 sudo iptables -A POSTROUTING
 ````
+
+## Condiciones principales
+
+### Protocolos
+
+```bash
+sudo iptables -A INPUT -p tcp
+#tcp, udp, udplite, icmp, icmpv6,esp, ah, sctp, mh o "all".
+```
+
+### IP de origen
+
+```bash
+sudo iptables -A INPUT -s x.x.x.x
+```
+
+### IP destino
+
+```bash
+sudo iptables -A OUTPUT -d x.x.x.x
+```
+
+### Interfaz de origen
+
+```bash
+sudo iptables -A OUTPUT -i eth0
+```
+
+### Interfaz de destino
+
+```bash
+sudo iptables -A INPUT -o eth0
+```
+
+### Puerto de destino
+
+```bash
+sudo iptables -A INPUT --dport 21
+```
+
+### Puerto de origen
+
+```bash
+sudo iptables -A OUTPUT --sport 21
+```
+
