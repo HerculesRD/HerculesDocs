@@ -394,8 +394,10 @@ echo este es el PID del script, $$
 echo el ultimo ret code fue $?
 ```
 
-
 ## IPTables
+
+Lo termine pasando a otro archivo porque era muy largo. Hay que segmentar.
+[IPTables](https://github.com/HerculesRD/HerculesDocs/tree/main/Administracion/Linux/IPTables)
 
 ## Tips & Tricks
 
