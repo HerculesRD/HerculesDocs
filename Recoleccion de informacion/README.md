@@ -106,6 +106,17 @@ Ejemplo:
 
 to: mail@dominio.com.getnotify.com
 
+## Telefonos
+
+### Moriarty
+
+```bash
+#NO CORRERLO COMO ROOT
+python3 moriarty.py -m correo@outlook.com -g correo@gmail.com -n +numeroTelefono
+```
+
+[Link Descarga](https://github.com/AzizKpln/Moriarty-Project)
+
 ## Tracking
 
 ### Creando links para trackear - Grabify
