@@ -7,6 +7,7 @@
 * [Comandos Utiles (2)](https://github.com/HerculesRD/HerculesDocs/tree/main/Administracion/Linux#comandos-utiles-2)
 * [Bash scripting](https://github.com/HerculesRD/HerculesDocs/tree/main/Administracion/Linux#tbash-scripting)
 * [IPTables](https://github.com/HerculesRD/HerculesDocs/tree/main/Administracion/Linux#iptables)
+* [Tips & Tricks](https://github.com/HerculesRD/HerculesDocs/tree/main/Administracion/Linux#tips-&-tricks)
 
 
 ## Tools
@@ -306,3 +307,13 @@ tput cnorm #muestra el cursor
 ```
 
 ## IPTables
+
+## Tips & Tricks
+
+#### Llamar al ultimo argumento del comando anterior
+
+```bash
+ls -l ../	#comando ejemplo
+ls -l !$	#mismo resultado 
+ls -l [alt + .]	#mismo resultado
+```
