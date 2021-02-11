@@ -10,7 +10,7 @@
 	* [IPTables](https://github.com/HerculesRD/HerculesDocs/tree/main/Administracion/Linux#iptables)
 	* [Tips & Tricks](https://github.com/HerculesRD/HerculesDocs/tree/main/Administracion/Linux#tips-&-tricks)
 1. [Windows](https://github.com/HerculesRD/HerculesDocs/tree/main/Administracion/Windows)
-	* [tools](https://github.com/HerculesRD/HerculesDocs/tree/main/Administracion/Windows#tools)
+	* [Tools](https://github.com/HerculesRD/HerculesDocs/tree/main/Administracion/Windows#tools)
 	* [Comandos utiles](https://github.com/HerculesRD/HerculesDocs/tree/main/Administracion/Windows#comandos-utiles)
 	* [Permisos](https://github.com/HerculesRD/HerculesDocs/tree/main/Administracion/Windows#permisos)
 	* [Manejo de procesos y servicios](https://github.com/HerculesRD/HerculesDocs/tree/main/Administracion/Windows#manejo-de-procesos-y-servicios)
