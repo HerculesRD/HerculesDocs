@@ -248,18 +248,38 @@ $watch -n 1 'ls -la' #cada 1 segundo
 #### Crontab
 
 ```bash
+crontab -e #para editar el archivo actual
+1 2 3 4 5 ls
+
+#1 minuto
+#2 hora
+#3 dia del mes
+#4 mes
+#5 dia de la semana (0 = domingo, 0-6)
+
+crontab -l #listamos las tareas existentes
+
+crontab -d #borramos el crontab
 ```
 
 ### Formato archivos
 
-#### xxd
+#### xxd (volcado hexa)
 
 ```bash
+xxd foto.jpg 
 ```
 
-#### gcc
+#### gcc (compilador C)
 
 ```bash
+gcc -o salida entrada.c
+```
+
+#### g++ (compilador C++)
+
+```bash
+g++ -o salida entrada.cpp
 ```
 
 ## Bash scripting
