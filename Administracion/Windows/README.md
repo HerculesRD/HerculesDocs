@@ -1,13 +1,13 @@
 # Windows
-* [tools](https://github.com/HerculesRD/HerculesDocs/tree/main/Administracion/Windows#tools)
+* [Tools](https://github.com/HerculesRD/HerculesDocs/tree/main/Administracion/Windows#tools)
 * [Comandos utiles](https://github.com/HerculesRD/HerculesDocs/tree/main/Administracion/Windows#comandos-utiles)
 * [Permisos](https://github.com/HerculesRD/HerculesDocs/tree/main/Administracion/Windows#permisos)
 * [Manejo de procesos y servicios](https://github.com/HerculesRD/HerculesDocs/tree/main/Administracion/Windows#manejo-de-procesos-y-servicios)
 * [Logs](https://github.com/HerculesRD/HerculesDocs/tree/main/Administracion/Windows#logs)
-* [Informacion de sistema]((https://github.com/HerculesRD/HerculesDocs/tree/main/Administracion/Windows#informacion-de-sistema)
+* [Informacion de sistema](https://github.com/HerculesRD/HerculesDocs/tree/main/Administracion/Windows#informacion-de-sistema)
 * [RDP](https://github.com/HerculesRD/HerculesDocs/tree/main/Administracion/Windows#rdp)
 * [Firmar certificado](https://github.com/HerculesRD/HerculesDocs/tree/main/Administracion/Windows#firmar-certificado)
-* [CMDLets]((https://github.com/HerculesRD/HerculesDocs/tree/main/Administracion/Windows#cmdlets)
+* [CMDLets](https://github.com/HerculesRD/HerculesDocs/tree/main/Administracion/Windows#cmdlets)
 
 ## Tools
 
