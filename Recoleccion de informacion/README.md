@@ -128,13 +128,13 @@ Aca deberia meter algo pero no se que.
 
 #### Yandex (muy buena para reverse image search)
 
-[Yandex](https://www.shodan.io/)
+[Link](https://www.shodan.io/)
 
 #### Google
 
-[Google](www.google.com)
+[Link](www.google.com)
 
-[Google Dorks]()
+[Google Dorks](https://github.com/HerculesRD/HerculesDocs/tree/main/Recoleccion%20de%20informacion#Google-Dorks)
 
 ### Personas
 
@@ -151,7 +151,6 @@ Aca deberia meter algo pero no se que.
 * [CachedView](http://cachedview.com/)
 
 * [Archive.org](https://archive.org/)
-
 
 ## LAN
 
