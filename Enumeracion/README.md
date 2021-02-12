@@ -275,9 +275,23 @@ nmap -T0 #de 0 a 5 el tiempo de escaneo. 5 es el mas rapido
 # Descubrimiento de dir & files
 
 ## Tips & Tricks
+
 ## Fuzzers
+
+### Ffuf
+### Gobuster
+### DNSMap
+### Sublist3r
+### Nmap
+### dirsearch
+### Wfuzz
+### Rostbuster
 ## Parametros HTTP
+### Arjun
+### Fuzz
 ## VHosts
+### Gobuster
+### Rostbuster
 
 # Escaneres
 
