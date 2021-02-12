@@ -119,9 +119,118 @@ nmap 192.168.1.2 -PO <Num protocolo>
 
 ```bash
 -Pn #No hacer Ping
+-p20,21,22-24
+--exclude-ports <ports>
+--max-retries 0 #Por defecto 1, puede aumentar si hay congestion de red
+-r #Hacer el escaneo secuencial en vez de aleatorio
+--top-ports <Num> #Num puertos mas comunes
+-F #FAST: los 1000 puertos mas comunes
+--port-ratio <ratio> #escanear todos los puertos del 
+#archivo nmap-services con un ratio igual o mayor que <ratio>.
+#<ratio> tiene que ser un valor entre 0.0 y 1.0
+
+open #Responde o parece abierto
+closed #Responde con un error
+filtered #No responde, anomalia
+unfiltered #No puede determinar el estado pero responde
+open | filtered #No puede determinar el estado por no responder
+```
+
+### TCP
+
+```bash
+nmap 192.168.1.2 -sT
+```
+
+### SYN
+
+Mas rapido que el anterior
+```bash
+nmap 192.168.1.2 -sS
+```
+
+### ACK
+
+Respuesta como unfiltered o filtered
+```bash
+nmap 192.168.1.2 -sA
+```
+
+### SCTP Init Scan
+
+Responde open, closed, filtered
+```bash
+nmap 192.168.1.2 -sY
+```
+
+### SCTP Cookie Echo Scan
+
+A veces los fw saltean filtrar este scan pero solo sabe si closed u open/filtered
+
+```bash
+nmap 192.168.1.2 -sZ
+```
+
+### Abusando de RFC TCP
+
+Todo puerto cerrado que reciba un paquete sin el flag "RST" debe contestar con un
+paquete TCP "RST".
+
+Responden con: Cerrado, abierto|filtrado o filtrado.
+
+Solo sirve para saber si existe un firewall y que tan fiable es
+
+#### Maimon
+
+FIN/ACK
+
+```bash
+nmap 192.168.1.2 -sM
+```
+
+#### Null
+
+no flags
+```bash
+nmap 192.168.1.2 -sn
+```
+
+#### XMas
+
+FIN, PSH y URG
+```bash
+nmap 192.168.1.2 -sX
+```
+
+#### FIN
+
+FIN
+```bash
+nmap 192.168.1.2 -sF
+```
+
+### ScanFlags
+
+Se pueden agregar todas las flags que quieran de entre:
+SYN, URG, ACK, PSH, RST, FIN
+```bash
+nmap 192.168.1.2 --scanflags SYNURG
+```
+
+Se puede agregar un tipo de scan para saber como interpretar la respuesta
+```bash
+nmap 192.168.1.2 --scanflags SYNURG -sS
 ```
 
 ## Versiones
+
+```bash
+nmap 192.168.1.2 -sV
+
+nmap 192.168.1.2 -sV --allports #incluir todos los puertos para la deteccion de versiones
+nmap 192.168.1.2 -sV --version-intesity 9 #entre 0 y 9, el default es 7
+```
+
 ## Salida
 ## Salteando escudos
 ## Scripts
@@ -131,6 +240,7 @@ nmap 192.168.1.2 -PO <Num protocolo>
 nmap 192.168.1.2 --traceroute
 nmap 192.168.1.2 --system-dns #usar el dns del sistema
 nmap 192.168.1.2 --dns-servers <dns-server> #usar un dns especifico
+nmap 192.168.1.2 -ddddddddddd #debugging
 ```
 
 # Amass
