@@ -57,6 +57,9 @@ nmap -iL hosts.txt --excludefile estasNo.txt
 -sn # no escanear puertos
 --discovery-ignore-rst #Ignora el RST para tener resultados reales a pesar de FW
 -sL #solo lista objetivos, no hace ruido en la red
+-n #no resolver
+-O #Sistemas Operativos
+--randomize-hosts
 ```
 
 ### TCP
@@ -232,8 +235,30 @@ nmap 192.168.1.2 -sV --version-intesity 9 #entre 0 y 9, el default es 7
 ```
 
 ## Salida
+
+```bash
+nmap 192.168.1.2 -oN #nmap
+nmap 192.168.1.2 -oX #XML
+nmap 192.168.1.2 -oG #grepeable
+nmap 192.168.1.2 -oA #Todos
+```
+
 ## Salteando escudos
+
+```bash
+nmap 192.168.1.2 -f #fragmentado de paquetes
+nmap 192.168.1.2 --source-port 80 #puerto de origen
+nmap 192.168.1.2 --data-length 300 #para darle una cierta longitud al paquete y no sea vacio
+nmap 192.168.1.2 --badsum 
+```
 ## Scripts
+
+```bash
+nmap 192.168.1.2 --script=vuln
+#Categorias: auth, broadcast, brute, default, discovery, dos, exploit, external, fuzzer
+#intrusive, malware, safe, version, vuln
+nmap 192.168.1.2 --script-updatedb #actualiza db si metemos un nuevo script
+```
 ## Opciones Adicionales
 
 ```bash
@@ -241,6 +266,8 @@ nmap 192.168.1.2 --traceroute
 nmap 192.168.1.2 --system-dns #usar el dns del sistema
 nmap 192.168.1.2 --dns-servers <dns-server> #usar un dns especifico
 nmap 192.168.1.2 -ddddddddddd #debugging
+nmap -6 #usar ipv6
+nmap -T0 #de 0 a 5 el tiempo de escaneo. 5 es el mas rapido
 ```
 
 # Amass
