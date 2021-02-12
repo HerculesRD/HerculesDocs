@@ -274,6 +274,25 @@ nmap -T0 #de 0 a 5 el tiempo de escaneo. 5 es el mas rapido
 
 # Descubrimiento de dir & files
 
+## Tips & Tricks
+## Fuzzers
+## Parametros HTTP
+## VHosts
+
 # Escaneres
 
-
+## Web Scanners
+## Escaneando S.O.
+## Escaneando WAFs
+## Buscando metadatos online
+## Escaneando SMB
+## Escaneando LDAP
+## Escaneando RPC
+## Escaneando SNMP
+## Escaneando MSSQL
+## Escaneando RDP
+## Git grabber
+## Escaner XSS
+## Escaner CRLF
+## Escaner CSRF
+## Escaner SSL
