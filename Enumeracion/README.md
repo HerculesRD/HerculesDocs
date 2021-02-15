@@ -276,31 +276,234 @@ nmap -T0 #de 0 a 5 el tiempo de escaneo. 5 es el mas rapido
 
 ## Tips & Tricks
 
+### Encontrando dirs
+
+```
+Si encontramos un directorio, podemos buscar directorios relacionados parecidos. Por ejemplo:
+/addpassword → /getpassword /updatepassword /forgotpassword /adduser
+```
+
+### Bypassing codes / denies / forbidden
+
+```
+Si HTTPS o HTTP /directory/ -> 403 forbidden
+Cambiar a HTTP o HTTPS -> 200
+```
+
+```
+GET /admin HTTP/1.1
+Host: http://site.com
+—-
+Access is denied
+———————————
+GET /test HTTP/1.1
+Host: http://site.com
+X-Original-URL: /admin
+—-
+HTTP/1.1 200 OK
+```
+
+### Redirecciones
+
+```
+Cuando codigo es 302 y size response > 1kb es sospechoso
+Interceptamos con proxy la respuestas y tenemos 
+301/302 y location (para saber a donde redirigir)
+Cambiamos 301/302 a 200 para tener un nuevo resultado que antes no teniamos
+```
+
 ## Fuzzers
 
 ### Ffuf
+
+```bash
+ffuf -u www.url.com/FUZZ -w wordlist.lst
+ffuf -w wordlist.lst -u url.com -H “Host: FUZZ.url.com”
+ffuf -e .php,.txt,.aspx #extensiones
+ffuf -mc 200 #match status code
+ffuf -ml 200 #match cantidad de lineas
+ffuf -mr #match regex
+ffuf -ms #match size response
+ffuf -mw #match cantidad de palabras
+ffuf -fw #filtrar por cantidad de palabras
+ffuf -fl #filtrar por cantidad de lineas
+ffuf -fs #filtrar por size response
+ffuf -fc #filtrar por status code
+ffuf -fr #filtrar por regex
+ffuf -c #agregarle colorcito a la salida
+ffuf -recursion #recursivo
+ffuf -recursion-depth 2 #nivel de recursion (va solo sin el anterior)
+```
+
 ### Gobuster
+
+```bash
+gobuster dir -u www.url.com -w wordlist.lst
+```
+
 ### DNSMap
+
+```bash
+dnsmap dominios.txt
+```
+
 ### Sublist3r
+
+```bash
+sublist3r -d www.url.com 
+```
+
 ### Nmap
+
+```bash
+nmap -p80,443 --script dns-brute
+```
+
 ### dirsearch
+
+```bash
+dirsearch -u target.com -e sh,txt,htm,php,cgi,html,pl,bak,old -w wordlist.lst
+```
+
 ### Wfuzz
-### Rostbuster
+
+```bash
+wfuzz -c -v -u http://x.x.x.x/FUZZ -w worlist.lst --hc 404
+```
+
+### Rustbuster
+
+```bash
+rustbuster dir -u http://x.x.x.x/ -w wordlist.lst -S 404 -e php,txt -o rustbuster-medium.txt
+```
+[Github Rustbuster](https://github.com/phra/rustbuster)
+
 ## Parametros HTTP
+
 ### Arjun
-### Fuzz
+
+```bash
+arjun -u https://api.example.com/endpoint --get
+```
+[Github Arjun](https://github.com/s0md3v/Arjun)
+
+### Ffuf
+
+```bash
+ffuf -u www.url.com/\?FUZZ=1 -w wordlist.lst
+```
+
 ## VHosts
+
 ### Gobuster
-### Rostbuster
+
+```bash
+gobuster vhost -u http://ejemplo.htb/ -w worlist.lst
+```
+
+### Rustbuster
+
+```bash
+rustbuster vhost -u http://x.x.x.x/ -w custom.txt -d ejemplo.htb -x 'redirect'
+```
+[Github Rustbuster](https://github.com/phra/rustbuster)
+
 
 # Escaneres
 
 ## Web Scanners
+
 ## Escaneando S.O.
+
+### Ping (rudimentario)
+
+```bash
+ping -c 1 x.x.x.x
+#TTL = 64 => Linux
+#TTL = 128 => Windows
+```
+
+### Nmap
+
+```bash
+nmap -O x.x.x.x
+```
+
 ## Escaneando WAFs
+
+### Wafw00f
+
+```bash
+wafw00f www.url.com
+```
+
+### Nmap
+
+```bash
+nmap -p80,443 --script=http-waf-detect --script-args="http-waf-detect.aggro, http-waf-detect.detectBodyChanges"
+nmap -p80,443 --script=http-waf-fingerprint --script-args="http-waf-fingerprint.intensive=1"
+```
+
 ## Buscando metadatos online
+
+### Nmap
+
+```bash
+nmap -p80,443 --script=http-exif-spider
+
+#si tenemos error "Current http cache size exceeds max size"
+nmap -p80,443 --script= http-exif-spider --script-args="http.max-cache-size=99999999"
+```
+
+### FOCA
+
+[Github FOCA](https://github.com/ElevenPaths/FOCA)
+
 ## Escaneando SMB
+
+### Nmap
+
+```bash
+nmap -p 445 --script=smb-enum-shares.nse,smb-enum-users.nse
+```
+
+### smbmap
+
+```bash
+smbmap -H host
+smbmap -u user -p pass -H host
+```
+
+### enum4linux
+
+```bash
+enum4linux -U HOST #users
+enum4linux -S HOST #enumera shares
+enum4linux -P HOST #password policy
+enum4linux -O HOST #info del SO
+```
+
 ## Escaneando LDAP
+
+puertos: 389, 636 (SSL), 3268, 3269 (SSL)
+
+### Windapsearch
+
+```bash
+python windapsearch.py -u Administrator -p Pass123 -d dev.corp --dc-ip 10.10.10.19
+```
+
+[Github windapsearch](https://github.com/ropnop/windapsearch)
+
+### ad-ldap-enum
+
+SOLO Python2
+```bash
+python ad-ldap-enum.py -d dev.corp -l 10.10.10.19 -u Administrator -p Pass123
+```
+
+[Github ad-ldap-enum](https://github.com/CroweCybersecurity/ad-ldap-enum)
+
 ## Escaneando RPC
 ## Escaneando SNMP
 ## Escaneando MSSQL
