@@ -8,7 +8,7 @@
 	* [Salida](https://github.com/HerculesRD/HerculesDocs/tree/main/Enumeracion#Salida)
 	* [Salteando escudos](https://github.com/HerculesRD/HerculesDocs/tree/main/Enumeracion#Salteando-escudos)
 	* [Scripts](https://github.com/HerculesRD/HerculesDocs/tree/main/Enumeracion#scripts)
-	* [Opciones](https://github.com/HerculesRD/HerculesDocs/tree/main/Enumeracion#opciones)
+	* [Opciones Adicionales](https://github.com/HerculesRD/HerculesDocs/tree/main/Enumeracion#opciones-adicionales)
 2. [Amass](https://github.com/HerculesRD/HerculesDocs/tree/main/Enumeracion#Amass)
 3. [Descubrimiento de dir & files](https://github.com/HerculesRD/HerculesDocs/tree/main/Enumeracion#descubrimiento-de-dir--files)
 	* [Tips & Tricks](https://github.com/HerculesRD/HerculesDocs/tree/main/Enumeracion#tips--tricks-2)
