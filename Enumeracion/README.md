@@ -16,7 +16,6 @@
 	* Parametros HTTP
 	* VHosts
 4. Escaneres y enumeracion
-	* Web Scanners
 	* Escaneando S.O.
 	* Escaneando WAFs
 	* Buscando metadatos online
@@ -32,6 +31,7 @@
 	* Escaner CSRF
 	* Escaner SSL
 	* POP3
+5. Web scanners
 
 # Nmap
 
@@ -412,8 +412,6 @@ rustbuster vhost -u http://x.x.x.x/ -w custom.txt -d ejemplo.htb -x 'redirect'
 
 # Escaner y enumeracion
 
-## Web Scanners
-
 ## Escaneando S.O.
 
 ### Ping (rudimentario)
@@ -623,9 +621,9 @@ RETR numMSG #muestra mensaje
 QUIT
 ```
 
-## Web scanners
+# Web scanners
 
-### Nikto
-### Wikto
-### Nessus
-### ZAP
+## Nikto
+## Wikto
+## Nessus
+## ZAP
