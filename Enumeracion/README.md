@@ -28,10 +28,10 @@
 	* [Git grabber](https://github.com/HerculesRD/HerculesDocs/tree/main/Enumeracion#git-grabber)
 	* [Escaner XSS](https://github.com/HerculesRD/HerculesDocs/tree/main/Enumeracion#escaner-xss)
 	* [Escaner CRLF](https://github.com/HerculesRD/HerculesDocs/tree/main/Enumeracion#escaner-crlf)
-	* [Escaner CSRF](https://github.com/HerculesRD/HerculesDocs/tree/main/Enumeracion#escaner-csrf)
+	* [Escaner CSRF](https://github.com/HerculesRD/HerculesDocs/tree/main/Enumeracion#escaner-csrf--xsrf)
 	* [Escaner SSL](https://github.com/HerculesRD/HerculesDocs/tree/main/Enumeracion#escaner-ssl)
 	* [POP3](https://github.com/HerculesRD/HerculesDocs/tree/main/Enumeracion#pop3)
-5. [Web scanners](https://github.com/HerculesRD/HerculesDocs/tree/main/Enumeracion#web-scanner)
+5. [Web scanners](https://github.com/HerculesRD/HerculesDocs/tree/main/Enumeracion#web-scanners)
 
 # Nmap
 
