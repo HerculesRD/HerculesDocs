@@ -1,37 +1,37 @@
 # Enumeracion
 
-1. Nmap
-	* Objetivos
-	* Descubrimiento
-	* Puertos
-	* Versiones
-	* Salida
-	* Salteando escudos
-	* Scripts
-	* Opciones
-2. Amass
-3. Descubrimiento de dir & files
-	* Tips & Tricks
-	* Fuzzers
-	* Parametros HTTP
-	* VHosts
-4. Escaneres y enumeracion
-	* Escaneando S.O.
-	* Escaneando WAFs
-	* Buscando metadatos online
-	* Escaneando SMB
-	* Escaneando LDAP
-	* Escaneando RPC
-	* Escaneando SNMP
-	* Escaneando MSSQL
-	* Escaneando RDP
-	* Git grabber
-	* Escaner XSS
-	* Escaner CRLF
-	* Escaner CSRF
-	* Escaner SSL
-	* POP3
-5. Web scanners
+1. [Nmap](https://github.com/HerculesRD/HerculesDocs/tree/main/Enumeracion#Nmap)
+	* [Objetivos](https://github.com/HerculesRD/HerculesDocs/tree/main/Enumeracion#objetivos)
+	* [Descubrimiento](https://github.com/HerculesRD/HerculesDocs/tree/main/Enumeracion#Descubrimiento)
+	* [Puertos](https://github.com/HerculesRD/HerculesDocs/tree/main/Enumeracion#Puertos)
+	* [Versiones](https://github.com/HerculesRD/HerculesDocs/tree/main/Enumeracion#Versiones)
+	* [Salida](https://github.com/HerculesRD/HerculesDocs/tree/main/Enumeracion#Salida)
+	* [Salteando escudos](https://github.com/HerculesRD/HerculesDocs/tree/main/Enumeracion#Salteando-escudos)
+	* [Scripts](https://github.com/HerculesRD/HerculesDocs/tree/main/Enumeracion#scripts)
+	* [Opciones](https://github.com/HerculesRD/HerculesDocs/tree/main/Enumeracion#opciones)
+2. [Amass](https://github.com/HerculesRD/HerculesDocs/tree/main/Enumeracion#Amass)
+3. [Descubrimiento de dir & files](https://github.com/HerculesRD/HerculesDocs/tree/main/Enumeracion#descubrimiendo-de-dir--files)
+	* [Tips & Tricks](https://github.com/HerculesRD/HerculesDocs/tree/main/Enumeracion#tips--tricks-2)
+	* [Fuzzers](https://github.com/HerculesRD/HerculesDocs/tree/main/Enumeracion#Fuzzers)
+	* [Parametros HTTP](https://github.com/HerculesRD/HerculesDocs/tree/main/Enumeracion#parametros-http)
+	* [VHosts](https://github.com/HerculesRD/HerculesDocs/tree/main/Enumeracion#vhosts)
+4. [Escaneres y enumeracion](https://github.com/HerculesRD/HerculesDocs/tree/main/Enumeracion#escaneres-y-enumeracion)
+	* [Escaneando S.O.](https://github.com/HerculesRD/HerculesDocs/tree/main/Enumeracion#escaneando-so)
+	* [Escaneando WAFs](https://github.com/HerculesRD/HerculesDocs/tree/main/Enumeracion#escaneando-wafs)
+	* [Buscando metadatos online](https://github.com/HerculesRD/HerculesDocs/tree/main/Enumeracion#buscando-metadatos-online)
+	* [Escaneando SMB](https://github.com/HerculesRD/HerculesDocs/tree/main/Enumeracion#escaneando-smb)
+	* [Escaneando LDAP](https://github.com/HerculesRD/HerculesDocs/tree/main/Enumeracion#escaneando-ldap)
+	* [Escaneando RPC](https://github.com/HerculesRD/HerculesDocs/tree/main/Enumeracion#escaneando-rpc)
+	* [Escaneando SNMP](https://github.com/HerculesRD/HerculesDocs/tree/main/Enumeracion#escaneando-snmp)
+	* [Escaneando MSSQL](https://github.com/HerculesRD/HerculesDocs/tree/main/Enumeracion#escaneando-mssql)
+	* [Escaneando RDP](https://github.com/HerculesRD/HerculesDocs/tree/main/Enumeracion#escaneando-rdp)
+	* [Git grabber](https://github.com/HerculesRD/HerculesDocs/tree/main/Enumeracion#git-grabber)
+	* [Escaner XSS](https://github.com/HerculesRD/HerculesDocs/tree/main/Enumeracion#escaner-xss)
+	* [Escaner CRLF](https://github.com/HerculesRD/HerculesDocs/tree/main/Enumeracion#escaner-crlf)
+	* [Escaner CSRF](https://github.com/HerculesRD/HerculesDocs/tree/main/Enumeracion#escaner-csrf)
+	* [Escaner SSL](https://github.com/HerculesRD/HerculesDocs/tree/main/Enumeracion#escaner-ssl)
+	* [POP3](https://github.com/HerculesRD/HerculesDocs/tree/main/Enumeracion#pop3)
+5. [Web scanners](https://github.com/HerculesRD/HerculesDocs/tree/main/Enumeracion#web-scanner)
 
 # Nmap
 
