@@ -15,7 +15,7 @@
 	* Fuzzers
 	* Parametros HTTP
 	* VHosts
-4. Escaneres
+4. Escaneres y enumeracion
 	* Web Scanners
 	* Escaneando S.O.
 	* Escaneando WAFs
@@ -31,6 +31,7 @@
 	* Escaner CRLF
 	* Escaner CSRF
 	* Escaner SSL
+	* POP3
 
 # Nmap
 
@@ -409,7 +410,7 @@ rustbuster vhost -u http://x.x.x.x/ -w custom.txt -d ejemplo.htb -x 'redirect'
 [Github Rustbuster](https://github.com/phra/rustbuster)
 
 
-# Escaneres
+# Escaner y enumeracion
 
 ## Web Scanners
 
@@ -505,11 +506,126 @@ python ad-ldap-enum.py -d dev.corp -l 10.10.10.19 -u Administrator -p Pass123
 [Github ad-ldap-enum](https://github.com/CroweCybersecurity/ad-ldap-enum)
 
 ## Escaneando RPC
+
+```bash
+rpcinfo -p www.url.com
+```
+
 ## Escaneando SNMP
+
+### SNMPwalk
+
+```bash
+snmpwalk -c public -v1 IP
+```
+
+### snmpcheck
+
+```bash
+snmpcheck -t IP -c public
+```
+
+### onesixtyone
+
+```bash
+onesixtyone -c names -i hosts
+```
+
+### snmpenum
+
+```bash
+snmpenum -t IP
+```
+
+### Nmap
+
+```bash
+nmap -sV -p 161 --script=snmp-info IP
+```
+
 ## Escaneando MSSQL
+
+### Nmap
+
+```bash
+$nmap -p 1433 --script ms-sql-info,ms-sql-empty-password,ms-sql-xp-cmdshell,ms-sql-config,ms-sql-ntlm-info,ms-sql-tables,ms-sql-hasdbaccess,ms-sql-dac,ms-sql-dump-hashes --script-args mssql.instance-port=1433,mssql.username=sa,mssql.password=,mssql.instance-name=MSSQLSERVER $ip
+```
+
 ## Escaneando RDP
+
+### xfreerdp
+
+```bash
+xfreerdp /v:IP -sec-nla /u:""
+```
+
 ## Git grabber
+
+```bash
+gitjacker www.url.com
+```
+
 ## Escaner XSS
+
+### XSStrike
+
+```bash
+xsstrike -u www.url.com/?id=
+```
+
+### Puff
+
+```bash
+puff -w xss.txt -u "http://url.com?id=FUZZ"
+#si el WAF filtra el alert() podes usar puff() para reemplazar en el payload
+```
+
+### Pwnxss
+
+```bash
+pwnxss -u www.url.com
+```
+
 ## Escaner CRLF
-## Escaner CSRF
+
+### CRLFuzz
+
+```bash
+crlfuzz -u www.url.com
+```
+
+### CRLFmap
+
+```bash
+$crlfmap scan --domains domains.txt --output results.txt
+```
+
+## Escaner CSRF / XSRF
+
+```bash
+xsrfprobe #suite
+```
+
 ## Escaner SSL
+
+```bash
+sslscan https://www.url.com
+```
+
+## POP3
+
+```bash
+Telnet IP 110 #default port
+USER username
+PASS password
+LIST #lista mensajes
+RETR numMSG #muestra mensaje
+QUIT
+```
+
+## Web scanners
+
+### Nikto
+### Wikto
+### Nessus
+### ZAP
