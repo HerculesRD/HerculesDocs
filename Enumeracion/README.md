@@ -15,7 +15,7 @@
 	* [Fuzzers](https://github.com/HerculesRD/HerculesDocs/tree/main/Enumeracion#Fuzzers)
 	* [Parametros HTTP](https://github.com/HerculesRD/HerculesDocs/tree/main/Enumeracion#parametros-http)
 	* [VHosts](https://github.com/HerculesRD/HerculesDocs/tree/main/Enumeracion#vhosts)
-4. [Escaneres y enumeracion](https://github.com/HerculesRD/HerculesDocs/tree/main/Enumeracion#escaneres-y-enumeracion)
+4. [Escaneres y enumeracion](https://github.com/HerculesRD/HerculesDocs/tree/main/Enumeracion#escaner-y-enumeracion)
 	* [Escaneando S.O.](https://github.com/HerculesRD/HerculesDocs/tree/main/Enumeracion#escaneando-so)
 	* [Escaneando WAFs](https://github.com/HerculesRD/HerculesDocs/tree/main/Enumeracion#escaneando-wafs)
 	* [Buscando metadatos online](https://github.com/HerculesRD/HerculesDocs/tree/main/Enumeracion#buscando-metadatos-online)
