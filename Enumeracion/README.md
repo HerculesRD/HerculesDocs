@@ -10,7 +10,7 @@
 	* [Scripts](https://github.com/HerculesRD/HerculesDocs/tree/main/Enumeracion#scripts)
 	* [Opciones](https://github.com/HerculesRD/HerculesDocs/tree/main/Enumeracion#opciones)
 2. [Amass](https://github.com/HerculesRD/HerculesDocs/tree/main/Enumeracion#Amass)
-3. [Descubrimiento de dir & files](https://github.com/HerculesRD/HerculesDocs/tree/main/Enumeracion#descubrimiendo-de-dir--files)
+3. [Descubrimiento de dir & files](https://github.com/HerculesRD/HerculesDocs/tree/main/Enumeracion#descubrimiento-de-dir--files)
 	* [Tips & Tricks](https://github.com/HerculesRD/HerculesDocs/tree/main/Enumeracion#tips--tricks-2)
 	* [Fuzzers](https://github.com/HerculesRD/HerculesDocs/tree/main/Enumeracion#Fuzzers)
 	* [Parametros HTTP](https://github.com/HerculesRD/HerculesDocs/tree/main/Enumeracion#parametros-http)
