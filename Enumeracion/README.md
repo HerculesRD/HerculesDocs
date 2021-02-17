@@ -627,3 +627,13 @@ QUIT
 ## Wikto
 ## Nessus
 ## ZAP
+
+## LFI
+
+```bash
+kadimus -u www.url.com/?pg=contact
+```
+
+```bash
+lfisuite.py #framework scan and exploit
+```
