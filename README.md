@@ -8,5 +8,5 @@
 1.	[Exploiting](https://github.com/HerculesRD/HerculesDocs/tree/main/Exploiting)
 	* [Metasploit](https://github.com/HerculesRD/HerculesDocs/tree/main/Exploiting/Metasploit.md)
 1.	[PostExploiting](https://github.com/HerculesRD/HerculesDocs/tree/main/PostExploiting)
-1.	[Reports](https://github.com/HerculesRD/HerculesDocs/tree/main/Reportes)
+1.	[Reportes](https://github.com/HerculesRD/HerculesDocs/tree/main/Reportes)
 1.	[Varios](https://github.com/HerculesRD/HerculesDocs/tree/main/Varios)
