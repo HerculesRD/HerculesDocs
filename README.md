@@ -1,4 +1,4 @@
-# HerculesDocs | HOME
+# HOME | HerculesDocs
 
 1.	[Administracion](https://github.com/HerculesRD/HerculesDocs/tree/main/Administracion)
 	* [Linux](https://github.com/HerculesRD/HerculesDocs/tree/main/Administracion/Linux)
