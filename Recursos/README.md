@@ -1,11 +1,11 @@
 # Recursos
 
-* [CTF]
-* [Plataformas de practica]
-* [Videos]
-* [Foros]
-* [Github]
-* [Apps/SO vulnerables]
+* [CTF](https://github.com/HerculesRD/HerculesDocs/tree/main/Recursos#CTF)
+* [Plataformas de practica](https://github.com/HerculesRD/HerculesDocs/tree/main/Recursos#Plataformas-de-practica)
+* [Videos](https://github.com/HerculesRD/HerculesDocs/tree/main/Recursos#videos)
+* [Foros](https://github.com/HerculesRD/HerculesDocs/tree/main/Recursos#foros)
+* [Github](https://github.com/HerculesRD/HerculesDocs/tree/main/Recursos#github)
+* [Apps/SO vulnerables](https://github.com/HerculesRD/HerculesDocs/tree/main/Recursos)
 
 ## CTF
 
