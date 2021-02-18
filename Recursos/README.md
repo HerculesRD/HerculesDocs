@@ -9,8 +9,8 @@
 
 ## CTF
 
-[CTFtime](https://ctftime.org/)
-[Embebbed security](https://microcorruption.com/login)
+* [CTFtime](https://ctftime.org/)
+* [Embebbed security](https://microcorruption.com/login)
 
 ## Plataformas de practica
 
