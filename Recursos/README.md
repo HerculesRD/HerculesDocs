@@ -5,7 +5,7 @@
 * [Videos](https://github.com/HerculesRD/HerculesDocs/tree/main/Recursos#videos)
 * [Foros](https://github.com/HerculesRD/HerculesDocs/tree/main/Recursos#foros)
 * [Github](https://github.com/HerculesRD/HerculesDocs/tree/main/Recursos#github)
-* [Apps/SO vulnerables](https://github.com/HerculesRD/HerculesDocs/tree/main/Recursos)
+* [Apps/SO vulnerables](https://github.com/HerculesRD/HerculesDocs/tree/main/Recursos#appssos-vulnerables)
 
 ## CTF
 
