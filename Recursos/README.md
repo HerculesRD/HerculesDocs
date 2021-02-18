@@ -6,6 +6,7 @@
 * [Foros](https://github.com/HerculesRD/HerculesDocs/tree/main/Recursos#foros)
 * [Github](https://github.com/HerculesRD/HerculesDocs/tree/main/Recursos#github)
 * [Apps/SO vulnerables](https://github.com/HerculesRD/HerculesDocs/tree/main/Recursos#appssos-vulnerables)
+* [Tools](https://github.com/HerculesRD/HerculesDocs/tree/main/Recursos#Tools)
 
 ## CTF
 
@@ -36,6 +37,7 @@
 
 * [IppSec](https://www.youtube.com/channel/UCa6eh7gCkpPo5XXUDfygQQA)
 * [John Hammond](https://www.youtube.com/channel/UCVeW9qkBjo3zosnqUbG7CFw)
+* [Motasem hamdan](https://www.youtube.com/channel/UCNSdU_1ehXtGclimTVckHmQ)
 
 ## Foros
 
@@ -45,7 +47,14 @@
 
 ## Github
 
+* [PayloadAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings)
+* [IoT Pentest](https://github.com/IoTSecurity101/IoT-Pentest-devices-and-purpose)
+
 ## Apps/SOs vulnerables
 
 * [DVWA](https://dvwa.co.uk/)
 * [raspwn OS](https://raspwn.org)
+
+## Tools
+
+* [Kitploit](https://www.kitploit.com/)
