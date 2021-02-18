@@ -26,6 +26,7 @@
 	* [Escaneando MSSQL](https://github.com/HerculesRD/HerculesDocs/tree/main/Enumeracion#escaneando-mssql)
 	* [Escaneando RDP](https://github.com/HerculesRD/HerculesDocs/tree/main/Enumeracion#escaneando-rdp)
 	* [Git grabber](https://github.com/HerculesRD/HerculesDocs/tree/main/Enumeracion#git-grabber)
+	* [Escaneando LFI](https://github.com/HerculesRD/HerculesDocs/tree/main/Enumeracion#escaneando-lfi)
 	* [Escaner XSS](https://github.com/HerculesRD/HerculesDocs/tree/main/Enumeracion#escaner-xss)
 	* [Escaner CRLF](https://github.com/HerculesRD/HerculesDocs/tree/main/Enumeracion#escaner-crlf)
 	* [Escaner CSRF](https://github.com/HerculesRD/HerculesDocs/tree/main/Enumeracion#escaner-csrf--xsrf)
@@ -559,8 +560,28 @@ xfreerdp /v:IP -sec-nla /u:""
 
 ## Git grabber
 
+### gitfinder
+
+```bash
+gitfinder -u www.url.com
+```
+
+[Gitfinder Github](https://github.com/guptabless/gitfinder)
+
+### gitjacker
+
 ```bash
 gitjacker www.url.com
+```
+
+## Escaneando LFI
+
+```bash
+kadimus -u www.url.com/?pg=contact
+```
+
+```bash
+lfisuite.py #framework scan and exploit
 ```
 
 ## Escaner XSS
@@ -628,12 +649,3 @@ QUIT
 ## Nessus
 ## ZAP
 
-## LFI
-
-```bash
-kadimus -u www.url.com/?pg=contact
-```
-
-```bash
-lfisuite.py #framework scan and exploit
-```
