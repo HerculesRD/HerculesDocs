@@ -10,3 +10,6 @@
 1.	[PostExploiting](https://github.com/HerculesRD/HerculesDocs/tree/main/PostExploiting)
 1.	[Reportes](https://github.com/HerculesRD/HerculesDocs/tree/main/Reportes)
 1.	[Varios](https://github.com/HerculesRD/HerculesDocs/tree/main/Varios)
+
+
+Entrar a [recursos](https://github.com/HerculesRD/HerculesDocs/tree/main/Recursos) para ver canales de YT, blogs, CTFs y demas!
