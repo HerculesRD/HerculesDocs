@@ -11,11 +11,13 @@
 
 ### Tools
 
-#### whois
+* [whois](https://who.is/)
 
 ```bash
 whois www.url.com
 ```
+
+* [netograph](https://netograph.io/)
 
 #### theHarvester
 
@@ -133,16 +135,26 @@ Aca deberia meter algo pero no se que.
 
 * [Shodan](https://www.shodan.io/)
 * [Censys](https://censys.io/ipv4)
+* [Zoomeye](https://www.zoomeye.org)
+* [Greynose](https://viz.greynoise.io/)
+* [Fofa](https://fofa.so)
+* [PulseDive](https://pulsedive.com/)
 
 ### Busqueda generica
 
 * [Yandex](https://www.yandex.com/)
 * [Google](www.google.com)
 [Google Dorks](https://github.com/HerculesRD/HerculesDocs/tree/main/Recoleccion%20de%20informacion#Google-Dorks)
+* [ZorexEye](https://zorexeye.com)
 
-### Personas
+### Informacion variada
 
 * [Buscar Personas](https://facuteayuda.com/buscar-datos-de-personas/)
+* [Intelx](https://intelx.io/)
+
+### Correos
+
+* [Hunter](https://hunter.io/)
 
 ### Buscador de API Keys
 
