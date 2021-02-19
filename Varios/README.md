@@ -35,9 +35,9 @@ r2 -d file -A #debug y analisis del codigo
 
 ## Malware 
 
-## Terminal Escape Injection
+### Terminal Escape Injection
 
-### Linux
+#### Linux
 
 ```bash
 #!/bin/bash
@@ -47,7 +47,7 @@ exit 0
 ^[[2Aecho "Instalando script..."
 ```
 
-### Windows
+#### Windows
 
 Para leer, con notepad. Las terminales no son confiables para leer
 ```powershell
@@ -58,6 +58,15 @@ echo evill!
 ^[[2Aecho instalando script...
 ```
 
+### Malware DDBB
+
+* [abuse bazaar](https://bazaar.abuse.ch/browse/)
+
+### Blacklists
+
+* [Abuse URLs maliciosas](https://urlhaus.abuse.ch/browse/)
+* [Abuse SSL cert Blacklist](https://sslbl.abuse.ch/blacklist/)
+* [Abuse IP Blacklist](https://feodotracker.abuse.ch/blocklist/)
 
 ### Analisis Estatico
 
