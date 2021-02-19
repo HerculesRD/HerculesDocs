@@ -18,3 +18,4 @@ ACTUALIZACIONES NECESARIAS
 
 * expandir el uso de suites con documentacion propia
 * crear categorias nuevas? Mobile/reversing/redes inalambricas
+* expandir "recursos"
