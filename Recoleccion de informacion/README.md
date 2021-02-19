@@ -74,6 +74,7 @@ python3 photon.py -u www.url.com -l 10 #10 levels de crawl
 * [URLScan](https://urlscan.io/)
 * [Robtex](https://www.robtex.com/)
 * [ICANN](https://lookup.icann.org/)
+* [Phonebook](https://phonebook.cz/)
 
 ## Correos
 
@@ -151,6 +152,7 @@ Aca deberia meter algo pero no se que.
 
 * [Buscar Personas](https://facuteayuda.com/buscar-datos-de-personas/)
 * [Intelx](https://intelx.io/)
+* [Maltiverse](https://maltiverse.com/)
 
 ### Correos
 
