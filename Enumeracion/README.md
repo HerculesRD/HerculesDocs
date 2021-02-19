@@ -410,8 +410,16 @@ rustbuster vhost -u http://x.x.x.x/ -w custom.txt -d ejemplo.htb -x 'redirect'
 ```
 [Github Rustbuster](https://github.com/phra/rustbuster)
 
-
 # Escaner y enumeracion
+
+## Puertos
+
+```bash
+./fastscanLP.sh -D www.host.com
+./fastscanLP.sh -H x.x.x.x
+```
+
+[fastscan Github](https://github.com/HerculesRD/FastScanLP)
 
 ## Escaneando S.O.
 
