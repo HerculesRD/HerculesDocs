@@ -171,6 +171,10 @@ arp -a
 
 ## Google Dorks
 
+### Tools
+
+* [GRecon](https://github.com/adnane-X-tebbaa/GRecon)
+
 ### Subdominios
 
 ```
@@ -249,13 +253,19 @@ site:www.url.com ext:php intitle:phpinfo "published by the PHP Group"
 ### Pastebin simil
 
 ```
-site:pastebin.com | site:paste2.org | site:pastehtml.com | site:slexy.org | site:snipplr.com | site:snipt.net | site:textsnip.com | site:bitpaste.app | site:justpaste.it | site:heypasteit.com | site:hastebin.com | site:dpaste.org | site:dpaste.com | site:codepad.org | site:jsitor.com | site:codepen.io | site:jsfiddle.net | site:dotnetfiddle.net | site:phpfiddle.org | site:ide.geeksforgeeks.org | site:repl.it | site:ideone.com | site:paste.debian.net | site:paste.org | site:paste.org.ru | site:codebeautify.org  | site:codeshare.io | site:trello.com "www.url.com"
+site:pastebin.com | site:paste2.org | site:pastehtml.com | site:slexy.org | site:snipplr.com | site:snipt.net | site:textsnip.com | site:bitpaste.app | site:justpaste.it | site:heypasteit.com | site:hastebin.com | site:dpaste.org | site:dpaste.com | site:codepad.org | site:jsitor.com | site:codepen.io | site:jsfiddle.net | site:dotnetfiddle.net | site:phpfiddle.org | site:ide.geeksforgeeks.org | site:repl.it | site:ideone.com | site:paste.debian.net | site:paste.org | site:paste.org.ru | site:codebeautify.org  | site:codeshare.io | site:trello.com | site:scribd.com | site:npmjs.com | site:npm.runkit.com | site:libraries.io "www.url.com"
+```
+
+### Sites 2
+
+```
+site:ycombinator.com | site:coggle.it | site:papaly.com | site:google.com | site:prezi.com | site:jsdelivr.net | site:codepen.io | site:codeshare.io | site:repl.it | site:productforums.google.com | site:gitter.im | site:bitbucket.org | site:zoom.us | site:atlassian.net "www.url.com"
 ```
 
 ### Git
 
 ```
-site:github.com | site:gitlab.com "www.url.com"
+site:github.com | site:gitlab.com | inurl:gitlab "www.url.com"
 ```
 
 ### Stack Overflow
@@ -264,3 +274,8 @@ site:github.com | site:gitlab.com "www.url.com"
 site:stackoverflow.com "www.url.com"
 ```
 
+### AmazonWS
+
+```
+site:s3.amazonaws.com inurl:"company"
+```
