@@ -33,9 +33,33 @@ r2 -d file -A #debug y analisis del codigo
 ./ImHex
 ```
 
-## Malware Analysis
+## Malware 
 
-### Estatico
+## Terminal Escape Injection
+
+### Linux
+
+```bash
+#!/bin/bash
+
+echo "Evil!!!"
+exit 0
+^[[2Aecho "Instalando script..."
+```
+
+### Windows
+
+Para leer, con notepad. Las terminales no son confiables para leer
+```powershell
+@echo off
+
+echo evill!
+
+^[[2Aecho instalando script...
+```
+
+
+### Analisis Estatico
 
 ```bash
 pdfid file.pdf #portable pdf analysis
@@ -50,7 +74,7 @@ pdfid file.pdf #portable pdf analysis
 * Hashtab
 * Strings
 
-### Dinamico
+### Analisis Dinamico
 
 * IDA PRO
 * Win DBG
