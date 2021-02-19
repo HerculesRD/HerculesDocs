@@ -13,3 +13,8 @@
 
 
 Entrar a [recursos](https://github.com/HerculesRD/HerculesDocs/tree/main/Recursos) para ver canales de YT, blogs, CTFs y demas!
+
+ACTUALIZACIONES NECESARIAS
+
+* expandir el uso de suites con documentacion propia
+* crear categorias nuevas? Mobile/reversing/redes inalambricas
