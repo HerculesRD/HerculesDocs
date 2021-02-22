@@ -27,7 +27,7 @@
 
 ### Español
 
-* [S4vitar](https://www.youtube.com/channel/UCNHWpNqiM8yOQcHXtsluD7Q)
+* [S4vitar](https://lbry.tv/@s4vitar:f)
 * [Victor Garcia](https://www.youtube.com/c/takito1812/videos)
 * [Julio Ureña](https://www.youtube.com/channel/UC2o1vzpUIvgf0VMJIMKZ_rQ)
 * [L4tin-HTB](https://www.youtube.com/channel/UCnNuiL7pamGnII7m4OwM2lw)
@@ -38,6 +38,8 @@
 * [IppSec](https://www.youtube.com/channel/UCa6eh7gCkpPo5XXUDfygQQA)
 * [John Hammond](https://www.youtube.com/channel/UCVeW9qkBjo3zosnqUbG7CFw)
 * [Motasem hamdan](https://www.youtube.com/channel/UCNSdU_1ehXtGclimTVckHmQ)
+* [Nahamsec](https://www.youtube.com/channel/UCCZDt7MuC3Hzs6IH4xODLBw)
+* [Cybermentor](https://www.youtube.com/c/TheCyberMentor/videos)
 
 ## Foros
 
