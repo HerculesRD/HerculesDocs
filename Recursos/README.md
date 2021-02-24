@@ -14,16 +14,28 @@
 
 * [CTFtime](https://ctftime.org/)
 * [Embebbed security](https://microcorruption.com/login)
+* [CTF365](https://ctf365.com)
+
 
 ## Plataformas de practica
 
 * [HackTheBox](https://www.hackthebox.eu/)
 * [Tryhackme](https://tryhackme.com/)
 * [VulnHub](https://www.vulnhub.com/)
+* [PortSwigger](https://portswigger.net/web-security/all-labs)
 * [Root-me](www.root-me.org)
 * [OverTheWire](https://overthewire.org/wargames/)
 * [Hack-me](https://hack.me/)
 * [Hackthissite](https://www.hackthissite.org/)
+* [PentesterLabs](https://pentesterlab.com/)
+* [XSS Game](https://xss-game.appspot.com/)
+* [HackthisSite](https://www.hackthissite.org/)
+* [Gruyere](https://google-gruyere.appspot.com/)
+* [OWASP juice shop](http://juice-shop.herokuapp.com/#/)
+* [hackyourself](https://hackyourselffirst.troyhunt.com/)
+* [bwapp](http://www.itsecgames.com/)
+* [flaws](http://flaws.cloud/)
+
 
 ## Plataformas de Bug Bounty
 
