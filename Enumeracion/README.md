@@ -312,6 +312,20 @@ X-Original-URL: /admin
 HTTP/1.1 200 OK
 ```
 
+### Wildcard DNS
+
+* Xip.io
+
+```
+http://10.10.10.10.xip.io/
+```
+
+* nip.io
+
+```
+http://10.10.10.10.nip.io/
+```
+
 ### Redirecciones
 
 ```
