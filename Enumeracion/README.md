@@ -285,6 +285,13 @@ Si encontramos un directorio, podemos buscar directorios relacionados parecidos.
 /addpassword → /getpassword /updatepassword /forgotpassword /adduser
 ```
 
+```
+Siempre probar el nombre del sitio como directorio
+
+www.url.com/url
+www.sitio.com/sitio
+```
+
 ### Bypassing codes / denies / forbidden
 
 ```
