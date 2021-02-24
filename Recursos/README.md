@@ -2,6 +2,8 @@
 
 * [CTF](https://github.com/HerculesRD/HerculesDocs/tree/main/Recursos#CTF)
 * [Plataformas de practica](https://github.com/HerculesRD/HerculesDocs/tree/main/Recursos#Plataformas-de-practica)
+* [Plataformas de Bug Bounty](https://github.com/HerculesRD/HerculesDocs/tree/main/Recursos#Plataformas-de-bug-bounty)
+* [Libros](https://github.com/HerculesRD/HerculesDocs/tree/main/Recursos#libros)
 * [Videos](https://github.com/HerculesRD/HerculesDocs/tree/main/Recursos#videos)
 * [Foros](https://github.com/HerculesRD/HerculesDocs/tree/main/Recursos#foros)
 * [Github](https://github.com/HerculesRD/HerculesDocs/tree/main/Recursos#github)
@@ -22,6 +24,71 @@
 * [OverTheWire](https://overthewire.org/wargames/)
 * [Hack-me](https://hack.me/)
 * [Hackthissite](https://www.hackthissite.org/)
+
+## Plataformas de Bug Bounty
+
+Plataformas abiertas
+* [HackerOne](https://www.hackerone.com/)
+* [BugCrowd](https://www.bugcrowd.com/)
+* [YesWeHack](https://www.yeswehack.com/)
+* [Intigriti](https://www.intigriti.com/)
+* [BB jp](https://bugbounty.jp/)
+* [Safehats](https://safehats.com/)
+* [BB hq](https://www.bugbountyhq.com/) #funciona?
+* [appsecure](https://www.appsecure.security/)
+* [hackenproof](https://hackenproof.com/)
+* [Hacktrophy](https://hacktrophy.com/en/)
+* [CESPPA](https://www.cesppa.com/)
+
+Plataformas con invitacion unicamente
+* [Synack](https://www.synack.com/red-team/)
+* [Cobalt](https://cobalt.io/)
+* [ZeroCopter](https://www.zerocopter.com/)
+* [Yogosha](https://yogosha.com/)
+* [AntiHack](https://www.antihack.me/)
+* [Vulnscope](https://www.vulnscope.com/)
+
+## Libros
+
+### Web 
+
+* Web Hacking 101 - Peter Yaworski
+* Breaking into Information Security: Learning the Ropes 101 - Andy Gill.
+* The Web Application Hacker’s Handbook: Finding and Exploiting Security Flaws - Dafydd Stuttard and Marcus Pinto.
+* Tangled Web - Michal Zalewski.
+* [OWASP Testing Guide v4](https://owasp.org/www-pdf-archive/OTGv4.pdf) - OWASP Breakers community.
+
+### Movil
+
+* The Mobile Application Hacker's Handbook - Dominic Chell et al
+* iOS Application Security: The Definitive Guide for Hackers and Developers by David Thiel
+
+### Criptografia
+
+* Crypto 101 by Laurens Van Houtven.
+
+### Pentesting
+
+* The Art of Exploitation - Jon Erickson, 2008
+* Metasploit: The Penetration Tester's Guide - David Kennedy et al., 2011
+* Penetration Testing: A Hands-On Introduction to Hacking - Georgia Weidman, 2014
+* Rtfm: Red Team Field Manual - Ben Clark, 2014
+* The Hacker Playbook - Peter Kim, 2014
+* The Basics of Hacking and Penetration Testing - Patrick Engebretson, 2013
+* Professional Penetration Testing - Thomas Wilhelm, 2013
+* Advanced Penetration Testing for Highly-Secured Environments - Lee Allen, 2012
+* Violent Python - TJ O'Connor, 2012
+* Fuzzing: Brute Force Vulnerability Discovery - Michael Sutton et al., 2007
+* Black Hat Python: Python Programming for Hackers and Pentesters - Justin Seitz, 2014
+* Penetration Testing: Procedures & Methodologies - EC-Council, 2010
+* Unauthorised Access: Physical Penetration Testing For IT Security Teams - Wil Allsopp, 2010
+* Advanced Persistent Threat Hacking: The Art and Science of Hacking Any Organization - Tyler Wrightson, 2014
+* Bug Hunter's Diary - Tobias Klein, 2011
+* Advanced Penetration Testing - Wil Allsopp, 2017
+
+### Ingenieria social
+
+* Social Engineering: The Art of Human Hacking - Christopher Hadnagy
 
 ## Videos
 
