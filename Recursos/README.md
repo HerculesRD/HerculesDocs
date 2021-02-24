@@ -4,6 +4,7 @@
 * [Plataformas de practica](https://github.com/HerculesRD/HerculesDocs/tree/main/Recursos#Plataformas-de-practica)
 * [Plataformas de Bug Bounty](https://github.com/HerculesRD/HerculesDocs/tree/main/Recursos#Plataformas-de-bug-bounty)
 * [Libros](https://github.com/HerculesRD/HerculesDocs/tree/main/Recursos#libros)
+* [Blogs](https://github.com/HerculesRD/HerculesDocs/tree/main/Recursos#blogs)
 * [Videos](https://github.com/HerculesRD/HerculesDocs/tree/main/Recursos#videos)
 * [Foros](https://github.com/HerculesRD/HerculesDocs/tree/main/Recursos#foros)
 * [Github](https://github.com/HerculesRD/HerculesDocs/tree/main/Recursos#github)
@@ -101,6 +102,8 @@ Plataformas con invitacion unicamente
 ### Ingenieria social
 
 * Social Engineering: The Art of Human Hacking - Christopher Hadnagy
+
+## Blogs
 
 ## Videos
 
