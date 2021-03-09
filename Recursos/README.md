@@ -36,7 +36,15 @@
 * [hackyourself](https://hackyourselffirst.troyhunt.com/)
 * [bwapp](http://www.itsecgames.com/)
 * [flaws](http://flaws.cloud/)
+* [ROP Emporium](https://ropemporium.com/)
+* [RingZero](https://ringzer0ctf.com/challenges)
+* [Hellbound](https://www.hellboundhackers.org/)
 
+## Explicadores
+
+* [Show The Docs](http://showthedocs.com/) #querys de pssql-mysql-nginx-gitconfig
+* [Hacksplaining](https://www.hacksplaining.com/lessons) #explicador de vulns
+* [Explainshell](https://www.explainshell.com/)
 
 ## Plataformas de Bug Bounty
 
@@ -105,6 +113,15 @@ Plataformas con invitacion unicamente
 
 ## Blogs
 
+* [Follow the White Rabbit](https://fwhibbit.es/)
+* [Sniferl4bs](https://www.sniferl4bs.com/)
+* [CheatSheet collection](https://laptrinhx.com/collection-of-the-cheat-sheets-useful-for-pentesting-589055837/)
+
+### Entradas especificas
+
+* [intro a pwn the stack](https://medium.com/zh3r0/intro-to-pwn-protstar-stacks-9fcd22be2b2)
+* [Fuente de pcap y ejemplos de malware](https://malware-traffic-analysis.net/)
+
 ## Videos
 
 ### Español
@@ -122,6 +139,7 @@ Plataformas con invitacion unicamente
 * [Motasem hamdan](https://www.youtube.com/channel/UCNSdU_1ehXtGclimTVckHmQ)
 * [Nahamsec](https://www.youtube.com/channel/UCCZDt7MuC3Hzs6IH4xODLBw)
 * [Cybermentor](https://www.youtube.com/c/TheCyberMentor/videos)
+* [SecurityTube](http://www.securitytube.net/)
 
 ## Foros
 
