@@ -55,7 +55,6 @@ Plataformas abiertas
 * [Intigriti](https://www.intigriti.com/)
 * [BB jp](https://bugbounty.jp/)
 * [Safehats](https://safehats.com/)
-* [BB hq](https://www.bugbountyhq.com/) #funciona?
 * [appsecure](https://www.appsecure.security/)
 * [hackenproof](https://hackenproof.com/)
 * [Hacktrophy](https://hacktrophy.com/en/)
