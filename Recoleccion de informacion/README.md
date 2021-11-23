@@ -6,6 +6,7 @@
 * [Cache](https://github.com/HerculesRD/HerculesDocs/tree/main/Recoleccion%20de%20informacion#Cache)
 * [LAN](https://github.com/HerculesRD/HerculesDocs/tree/main/Recoleccion%20de%20informacion#LAN)
 * [Google Dorks](https://github.com/HerculesRD/HerculesDocs/tree/main/Recoleccion%20de%20informacion#Google-Dorks)
+* [Leaks](https://github.com/HerculesRD/HerculesDocs/tree/main/Recoleccion%20de%20informacion#Leaks)
 
 ## Informacion DNS
 
@@ -287,3 +288,8 @@ site:stackoverflow.com "www.url.com"
 ```
 site:s3.amazonaws.com inurl:"company"
 ```
+
+## Leaks
+
+* [pwndb](https://pwndb2am4tzkvold.tor2web.io/)
+* [h8mail](https://github.com/khast3x/h8mail)
