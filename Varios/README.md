@@ -1,12 +1,12 @@
 # Varios
 
-* [Reversing](https://github.com/HerculesRD/HerculesDocs/Varios/README.md#Reversing)
-* [BoF](https://github.com/HerculesRD/HerculesDocs/Varios#BoF)
-* [Malware Analysis](https://github.com/HerculesRD/HerculesDocs/Varios#Malware)
-* [Forense](https://github.com/HerculesRD/HerculesDocs/Varios#Forense)
-* [Programacion](https://github.com/HerculesRD/HerculesDocs/Varios#Programacion)
-* [Github](https://github.com/HerculesRD/HerculesDocs/Varios#Github)
-* [Esteganografia](https://github.com/HerculesRD/HerculesDocs/Varios#Esteganografia)
+* [Reversing](https://github.com/HerculesRD/HerculesDocs/blob/main/Varios/README.md#reversing)
+* [BoF](https://github.com/HerculesRD/HerculesDocs/blob/main/Varios/README.md#BoF)
+* [Malware Analysis](https://github.com/HerculesRD/HerculesDocs/blob/main/Varios/README.md#Malware)
+* [Forense](https://github.com/HerculesRD/HerculesDocs/blob/main/Varios/README.md#Forense)
+* [Programacion](https://github.com/HerculesRD/HerculesDocs/blob/main/Varios/README.md#Programacion)
+* [Github](https://github.com/HerculesRD/HerculesDocs/blob/main/Varios/README.md#Github)
+* [Esteganografia](https://github.com/HerculesRD/HerculesDocs/blob/main/Varios/README.md#Esteganografia)
 
 
 ## Reversing
