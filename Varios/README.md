@@ -1,6 +1,6 @@
 # Varios
 
-* [Reversing]
+* [Reversing](https://github.com/HerculesRD/HerculesDocs/edit/main/Varios#Reversing)
 * [BoF]
 * [Malware Analysis]
 * [Forense]
