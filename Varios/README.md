@@ -1,12 +1,12 @@
 # Varios
 
 * [Reversing](https://github.com/HerculesRD/HerculesDocs/edit/main/Varios#Reversing)
-* [BoF]
-* [Malware Analysis]
-* [Forense]
+* [BoF](https://github.com/HerculesRD/HerculesDocs/edit/main/Varios#BoF)
+* [Malware Analysis](https://github.com/HerculesRD/HerculesDocs/edit/main/Varios#Malware)
+* [Forense](https://github.com/HerculesRD/HerculesDocs/edit/main/Varios#Forense)
 * [Programacion]
-* [Github]
-* [Esteganografia]
+* [Github](https://github.com/HerculesRD/HerculesDocs/edit/main/Varios#Github)
+* [Esteganografia](https://github.com/HerculesRD/HerculesDocs/edit/main/Varios#Esteganografia)
 
 
 ## Reversing
