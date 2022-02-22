@@ -9,6 +9,10 @@
 * [IPTables](https://github.com/HerculesRD/HerculesDocs/tree/main/Administracion/Linux#iptables)
 * [Tips & Tricks](https://github.com/HerculesRD/HerculesDocs/tree/main/Administracion/Linux#tips-&-tricks)
 
+## Explica comandos
+
+* [explainShell](https://explainshell.com/)
+* [shellHow](https://www.shell.how/)
 
 ## Tools
 
