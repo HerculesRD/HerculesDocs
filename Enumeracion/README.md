@@ -274,7 +274,13 @@ nmap -T0 #de 0 a 5 el tiempo de escaneo. 5 es el mas rapido
 
 # Amass
 
+Falta completar
+
 # Descubrimiento de dir & files
+
+## Tools
+
+* [cariddi](https://github.com/edoardottt/cariddi)
 
 ## Tips & Tricks
 
