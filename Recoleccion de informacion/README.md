@@ -293,3 +293,8 @@ site:s3.amazonaws.com inurl:"company"
 
 * [pwndb](https://pwndb2am4tzkvold.tor2web.io/)
 * [h8mail](https://github.com/khast3x/h8mail)
+
+## Identificacion de informacion
+
+./pywhat [cualquierCosa] -> identifica que es el argumento pasado e informacion dentro
+* [pywhat](https://github.com/bee-san/pyWhat)
