@@ -183,6 +183,7 @@ arp -a
 ### Tools
 
 * [GRecon](https://github.com/adnane-X-tebbaa/GRecon)
+* [DorkSearch](https://dorksearch.com/)
 
 ### Subdominios
 
