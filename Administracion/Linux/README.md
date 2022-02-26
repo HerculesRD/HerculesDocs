@@ -18,6 +18,7 @@
 
 * [BatCat](https://github.com/sharkdp/bat)
 * [Exa](https://github.com/ogham/exa)
+* [lsd](https://github.com/Peltoche/lsd)
 
 ## Comandos utiles (1)
 
