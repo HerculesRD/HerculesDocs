@@ -294,6 +294,7 @@ site:s3.amazonaws.com inurl:"company"
 
 * [pwndb](https://pwndb2am4tzkvold.tor2web.io/)
 * [h8mail](https://github.com/khast3x/h8mail)
+* [dehashed](https://dehashed.com/api)
 
 ## Identificacion de informacion
 
