@@ -16,9 +16,8 @@
 
 ## Tools
 
-### Batcat | cat con esteroides
-
-[Github Link](https://github.com/sharkdp/bat)
+* [BatCat](https://github.com/sharkdp/bat)
+* [Exa](https://github.com/ogham/exa)
 
 ## Comandos utiles (1)
 
