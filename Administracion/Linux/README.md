@@ -18,23 +18,38 @@
 
 Cat
 * [BatCat](https://github.com/sharkdp/bat)
+
 ls
 * [Exa](https://github.com/ogham/exa)
 * [lsd](https://github.com/Peltoche/lsd)
+
 navegando en directorios con cmd
 * [broot](https://github.com/Canop/broot)
+
 Git - diff
 * [delta](https://github.com/dandavison/delta)
+
 du
 * [dust](https://github.com/bootandy/dust)
+
 df
 * [duf](https://github.com/muesli/duf)
+
 find
 * [fdfind](https://github.com/sharkdp/fd)
+
 grep
 * [ripgrep](https://github.com/BurntSushi/ripgrep)
+
 awk
 * [ag](https://github.com/ggreer/the_silver_searcher)
+
+text editor
+* [micro](https://github.com/zyedidia/micro)
+* [mle](https://github.com/adsr/mle)
+
+History
+* [mcfly](https://github.com/cantino/mcfly)
 
 
 
