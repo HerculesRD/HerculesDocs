@@ -16,6 +16,9 @@
 
 ## Tools
 
+cd
+* [zoxide](https://github.com/ajeetdsouza/zoxide)
+
 Cat
 * [BatCat](https://github.com/sharkdp/bat)
 
@@ -44,6 +47,9 @@ grep
 awk
 * [ag](https://github.com/ggreer/the_silver_searcher)
 
+cut
+* [choose](https://github.com/theryangeary/choose)
+
 text editor
 * [micro](https://github.com/zyedidia/micro)
 * [mle](https://github.com/adsr/mle)
@@ -51,7 +57,25 @@ text editor
 History
 * [mcfly](https://github.com/cantino/mcfly)
 
+sed para jquery
+* [jq](https://github.com/stedolan/jq)
 
+sed
+* [sd](https://github.com/chmln/sd)
+
+ps
+* [procs](https://github.com/dalance/procs)
+
+Cheatsheets en consola
+* [cheat](https://github.com/cheat/cheat)
+
+curl
+* [httpie](https://github.com/httpie/httpie)
+* [curlie](https://github.com/rs/curlie)
+* [xh](https://github.com/ducaale/xh)
+
+dig
+* [dog](https://github.com/ogham/dog)
 
 ## Comandos utiles (1)
 
