@@ -407,6 +407,10 @@ rustbuster dir -u http://x.x.x.x/ -w wordlist.lst -S 404 -e php,txt -o rustbuste
 ```
 [Github Rustbuster](https://github.com/phra/rustbuster)
 
+### vaf
+
+* [vaf](https://github.com/d4rckh/vaf)
+
 ## Parametros HTTP
 
 ### Arjun
