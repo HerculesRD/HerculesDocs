@@ -264,6 +264,7 @@ Bypass WAF
 - [ ]  Use SQLMAP tamper scripts
 
 Time delays
+
 ```terminal
       Oracle 	      dbms_pipe.receive_message(('a'),10)
       
