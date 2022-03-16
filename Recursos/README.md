@@ -13,7 +13,7 @@
 * [Tools](https://github.com/HerculesRD/HerculesDocs/tree/main/Recursos#Tools)
 
 ## Checklist
-* [Web App Pentesting Checklist]()
+* [Web App Pentesting Checklist](https://github.com/HerculesRD/HerculesDocs/blob/main/Recursos/Web_Checklist)
 
 ## CTF
 
