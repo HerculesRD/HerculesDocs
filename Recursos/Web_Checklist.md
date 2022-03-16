@@ -264,7 +264,7 @@ Bypass WAF
 - [ ]  Use SQLMAP tamper scripts
 
 Time delays
-```cmd
+```markup
       Oracle 	      dbms_pipe.receive_message(('a'),10)
       
       Microsoft 	  WAITFOR DELAY '0:0:10'
@@ -275,7 +275,7 @@ Time delays
 ```
 
 Condicionales
-```terminal
+```markup
       Oracle 	      SELECT CASE WHEN (YOUR-CONDITION-HERE) THEN 'a'||dbms_pipe.receive_message(('a'),10) ELSE NULL END FROM dual
       
       Microsoft 	  IF (YOUR-CONDITION-HERE) WAITFOR DELAY '0:0:10'
@@ -344,7 +344,7 @@ Host=IP; If There Is Try To Change IP To Your IP To Get SSRF
 
 #XML Injection
 - [ ]  Change the content type to text/xml then insert below code. Check via repeater
-```terminal
+```markup
 <?xml version="1.0" encoding="ISO 8859 1"?>
 <!DOCTYPE tushar [
 <!ELEMENT tushar ANY
@@ -417,7 +417,7 @@ http://169.254.169.254/metadata/v1/interfaces/public/0/ipv6/address
 ```
 
 Azure
-```
+```markup
 http://169.254.169.254/metadata/v1/maintenance
 http://169.254.169.254/metadata/instance?api-version=2017-04-02
 http://169.254.169.254/metadata/instance/network/interface/0/ipv4/ipAddress/0/publicIpAddress?api-version=2017-04-02&format=text
@@ -520,9 +520,4 @@ Blind OS Command Injection
 # Web Services
 - [ ]  Test for directory traversal
 - [ ]  Web services documentation disclosure Enumeration of services, data types, input types boundaries and limits
-
-
-
-
-
 
