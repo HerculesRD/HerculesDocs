@@ -88,15 +88,11 @@ python infoga.py --domain www.url.com --source google -v 3 --breach
 python infoga.py --info correo@domain.com
 ```
 
-[Link Descarga](https://github.com/m4ll0k/infoga)
+* [infoga](https://github.com/m4ll0k/infoga)
 
 #### Google Mail Hunt (revision si sigue andando)
 
-```bash
-hunt mail@gmail.com
-```
-
-[Link Descarga](https://github.com/mxrch/GHunt)
+* [GHunt](https://github.com/mxrch/GHunt)
 
 ### Trackeando mails
 
@@ -109,6 +105,10 @@ verificar IP pero verifica si llego.
 Ejemplo:
 
 to: mail@dominio.com.getnotify.com
+
+### OSINT para correos
+
+* [Buster](https://github.com/sham00n/buster)
 
 ## Telefonos
 
