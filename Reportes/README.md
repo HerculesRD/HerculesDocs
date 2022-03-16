@@ -3,3 +3,4 @@
 * [BB Templates](https:////github.com/ZephrFish/BugBountyTemplates)
 * [Petereport](https://github.com/1modm/petereport)
 * [Writehat](https://github.com/blacklanternsecurity/writehat)
+* [PwnDoc](https://github.com/pwndoc/pwndoc)
