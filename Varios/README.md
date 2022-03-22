@@ -102,6 +102,25 @@ pdfid file.pdf #portable pdf analysis
 * Volatility
 
 ## Programacion
+
+### Python
+
+Ejecucion de comandos de OS
+```python
+os.system("ls")
+os.popen("ls").read()
+os.execl("/bin/ls","")
+os.execlp("ls","")
+os.execv("/bin/ls",[''])
+os.execvp("/bin/ls",[""])
+subprocess.call("ls")
+    subprocess.call("ls|cat",shell=False) => Fail
+    subprocess.call("ls|cat",shell=True) => Correct
+eval("__import__('os').system('ls')")
+exec("__import__('os').system('ls')")
+commands.getoutput('ls')
+```
+
 ## Github
 ## Esteganografia
 
