@@ -281,6 +281,7 @@ Falta completar
 ## Tools
 
 * [cariddi](https://github.com/edoardottt/cariddi)
+* [LinkFinder](https://github.com/GerbenJavado/LinkFinder)
 
 ## Tips & Tricks
 
