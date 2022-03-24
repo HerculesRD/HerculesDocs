@@ -351,6 +351,61 @@ g++ -o salida entrada.cpp
 #!/bin/bash
 ```
 
+### Argumentos
+```bash
+$# Numero de argumentos pasados
+$* Todos los argumentos posicionales (una palabra)
+$@ Todos los argumentos posicionales (strings separados)
+$1 Primer argumento
+$_ Ultimo argumento del comando anterior
+```
+
+### Operaciones
+```bash
+!! Ejecutar el ultimo comando
+$? Exit status del ultimo comando
+$! PID de la ultima tarea en background
+$$ PID de la shell
+$0 FileName del script
+```
+
+### Condiciones
+
+Variables
+```bash
+[[ -z STRING ]] 	string vacio
+[[ -n STRING ]] 	string no vacio
+[[ STRING == STRING ]] 	igual
+[[ STRING != STRING ]] 	No igual
+[[ NUM -eq NUM ]] 	igual
+[[ NUM -ne NUM ]] 	No igual
+[[ NUM -lt NUM ]] 	Menor que
+[[ NUM -le NUM ]] 	Menor o igual que
+[[ NUM -gt NUM ]] 	Mayor que
+[[ NUM -ge NUM ]] 	Mayor o igual que
+[[ STRING =~ STRING ]] 	Regexp
+(( NUM < NUM )) 	Numeric conditions
+[[ -o noclobber ]] 	si OPTIONNAME esta habilitado
+[[ ! EXPR ]] 		Not
+[[ X && Y ]] 		And
+[[ X || Y ]] 		Or
+```
+
+Archivos
+```bash
+[[ -e FILE ]] 		Existe
+[[ -r FILE ]] 		Leible
+[[ -h FILE ]] 		Symlink
+[[ -d FILE ]] 		Directorio
+[[ -w FILE ]] 		Escribible
+[[ -s FILE ]] 		Size es > 0 bytes
+[[ -f FILE ]] 		File
+[[ -x FILE ]] 		Ejecutable
+[[ FILE1 -nt FILE2 ]] 	1 es mas reciente que 2
+[[ FILE1 -ot FILE2 ]] 	1 is menos reciente que 2
+[[ FILE1 -ef FILE2 ]] 	Mismos files
+```
+
 ### Funciones
 
 #### Interrupcion CTRL+C
@@ -425,6 +480,21 @@ while getopts ":H:l" opt; do
 
         esac
 done
+
+#### Ejemplo2
+while [[ "$1" =~ ^- && ! "$1" == "--" ]]; do case $1 in
+  -V | --version )
+    echo $version
+    exit
+    ;;
+  -s | --string )
+    shift; string=$1
+    ;;
+  -f | --flag )
+    flag=1
+    ;;
+esac; shift; done
+if [[ "$1" == '--' ]]; then shift; fi
 ```
 
 #### obteniendo un argumento de una opcion
@@ -455,24 +525,11 @@ echo $*
 
 ```
 
-### Datos del script
-
-#### nombre del script
-
+#### Input del user
 ```bash
-echo el nombre del script es $0
-```
-
-#### PID del script
-
-```bash
-echo este es el PID del script, $$
-```
-
-#### Ultimo valor de retorno (return code)
-
-```bash
-echo el ultimo ret code fue $?
+echo -n "Proceed? [y/n]: "
+read ans
+echo $ans
 ```
 
 ## IPTables
