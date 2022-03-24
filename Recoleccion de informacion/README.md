@@ -224,10 +224,13 @@ site:www.url.com ext:sql | ext:dbf | ext:mdb
 site:www.url.com ext:log
 ```
 
-### Backup y olds
+### Backup, devs y olds
 
 ```
 site:www.url.com ext:bkf | ext:bkp | ext:bak | ext:old | ext:backup
+```
+```
+inurl:"url.com" AND (staging | test | dev)
 ```
 
 ### Login
