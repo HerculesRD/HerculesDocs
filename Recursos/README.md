@@ -36,13 +36,14 @@
 * [XSS Game](https://xss-game.appspot.com/)
 * [HackthisSite](https://www.hackthissite.org/)
 * [Gruyere](https://google-gruyere.appspot.com/)
-* [OWASP juice shop](http://juice-shop.herokuapp.com/#/)
+* [OWASP juice shop](http://juice-shop.herokuapp.com/#/) Vulnerable webapp
 * [hackyourself](https://hackyourselffirst.troyhunt.com/)
 * [bwapp](http://www.itsecgames.com/)
 * [flaws](http://flaws.cloud/)
 * [ROP Emporium](https://ropemporium.com/)
 * [RingZero](https://ringzer0ctf.com/challenges)
 * [Hellbound](https://www.hellboundhackers.org/)
+* [defenseless](https://github.com/infosecAK/defenselessV1) Vulnerable webapp
 
 ## Explicadores
 
