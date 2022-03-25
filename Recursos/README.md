@@ -4,6 +4,7 @@
 * [CTF](https://github.com/HerculesRD/HerculesDocs/tree/main/Recursos#CTF)
 * [Plataformas de practica](https://github.com/HerculesRD/HerculesDocs/tree/main/Recursos#Plataformas-de-practica)
 * [Plataformas de Bug Bounty](https://github.com/HerculesRD/HerculesDocs/tree/main/Recursos#Plataformas-de-bug-bounty)
+* [Malware samples]()
 * [Libros](https://github.com/HerculesRD/HerculesDocs/tree/main/Recursos#libros)
 * [Blogs](https://github.com/HerculesRD/HerculesDocs/tree/main/Recursos#blogs)
 * [Videos](https://github.com/HerculesRD/HerculesDocs/tree/main/Recursos#videos)
@@ -72,6 +73,10 @@ Plataformas con invitacion unicamente
 * [Yogosha](https://yogosha.com/)
 * [AntiHack](https://www.antihack.me/)
 * [Vulnscope](https://www.vulnscope.com/)
+
+## Malware Samples
+
+* [mstfknn](https://github.com/mstfknn/malware-sample-library)
 
 ## Libros
 
