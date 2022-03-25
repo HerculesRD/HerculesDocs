@@ -4,7 +4,8 @@
 * [CTF](https://github.com/HerculesRD/HerculesDocs/tree/main/Recursos#CTF)
 * [Plataformas de practica](https://github.com/HerculesRD/HerculesDocs/tree/main/Recursos#Plataformas-de-practica)
 * [Plataformas de Bug Bounty](https://github.com/HerculesRD/HerculesDocs/tree/main/Recursos#Plataformas-de-bug-bounty)
-* [Malware samples]()
+* [Malware samples](https://github.com/HerculesRD/HerculesDocs/tree/main/Recursos#Malware-Samples)
+* [Programacion](https://github.com/HerculesRD/HerculesDocs/tree/main/Recursos#Programacion)
 * [Libros](https://github.com/HerculesRD/HerculesDocs/tree/main/Recursos#libros)
 * [Blogs](https://github.com/HerculesRD/HerculesDocs/tree/main/Recursos#blogs)
 * [Videos](https://github.com/HerculesRD/HerculesDocs/tree/main/Recursos#videos)
@@ -77,6 +78,10 @@ Plataformas con invitacion unicamente
 ## Malware Samples
 
 * [mstfknn](https://github.com/mstfknn/malware-sample-library)
+
+## Programacion
+
+* [Aprender GO para hacking](https://github.com/parsiya/Hacking-with-Go)
 
 ## Libros
 
