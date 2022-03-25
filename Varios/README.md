@@ -5,6 +5,7 @@
 * [Malware Analysis](https://github.com/HerculesRD/HerculesDocs/tree/main/Varios#Malware)
 * [Forense](https://github.com/HerculesRD/HerculesDocs/tree/main/Varios#Forense)
 * [Programacion](https://github.com/HerculesRD/HerculesDocs/tree/main/Varios#Programacion)
+* [Docker](https://github.com/HerculesRD/HerculesDocs/tree/main/Varios#Docker)
 * [Github](https://github.com/HerculesRD/HerculesDocs/tree/main/Varios#Github)
 * [Esteganografia](https://github.com/HerculesRD/HerculesDocs/tree/main/Varios#Esteganografia)
 
@@ -122,6 +123,46 @@ subprocess.call("ls")
 eval("__import__('os').system('ls')")
 exec("__import__('os').system('ls')")
 commands.getoutput('ls')
+```
+
+## Docker
+
+```bash
+# Docker file to image
+docker build -t <tagname> .
+
+# Descargando docker file
+# ultima version
+docker pull <container name>
+# Version especifica
+docker pull <container name>:<verion>
+```
+
+Corriendo container
+```bash
+# listando imagenes de docker
+docker images 
+
+# Corriendo el container
+docker run -it <dockername>
+
+# Eliminando container
+docker rmi <imageID> -f
+
+# Listar instancias de Docker
+docker ps
+
+# Actualizar Docker cuando alteramos containers
+docker update
+```
+
+Corriendo Docker con puertos abiertos
+```bash
+docker run --rm -it -p <port on docker container>:<port on docker host> -p <port start>-<port end>:<port start>-<port end> <imageName>
+# single port 
+docker run --rm -it -p 21:21 <imageName>
+# continuous multiple ports
+docker run --rm -it -p 21:21 -p 4559-4564:4559-4564 <imageName>
 ```
 
 ## Github
