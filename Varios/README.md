@@ -107,6 +107,8 @@ pdfid file.pdf #portable pdf analysis
 
 ## Programacion
 
+* [Shell una linea](https://rosettacode.org/wiki/Shell_one-liner)
+
 ### Python
 
 Ejecucion de comandos de OS
