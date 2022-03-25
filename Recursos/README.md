@@ -167,6 +167,10 @@ Plataformas con invitacion unicamente
 * [IoT Pentest](https://github.com/IoTSecurity101/IoT-Pentest-devices-and-purpose)
 * [Enum_for_all](https://github.com/0xtz/Enum_For_All)
 
+### Blue Team
+
+* [API Security Checklist](https://github.com/shieldfy/API-Security-Checklist/blob/master/README-es.md)
+
 ## Apps/SOs vulnerables
 
 * [DVWA](https://dvwa.co.uk/)
