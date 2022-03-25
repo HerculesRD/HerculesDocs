@@ -137,6 +137,7 @@ Aca deberia meter algo pero no se que.
 ### Buscadores de servicios
 
 * [Shodan](https://www.shodan.io/)
+[karvaV2](https://github.com/Dheerajmadhukar/karma_v2) (Con Shodan API key premium)
 * [Censys](https://censys.io/ipv4)
 * [Zoomeye](https://www.zoomeye.org)
 * [Greynose](https://viz.greynoise.io/)
