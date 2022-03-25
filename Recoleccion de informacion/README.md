@@ -20,6 +20,7 @@ whois www.url.com
 
 * [netograph](https://netograph.io/)
 * [AnalyticsRelationships (Domains/Subdomains mirando Google Analytics)](https://github.com/Josue87/AnalyticsRelationships)
+* [Frogy](https://github.com/iamthefrogy/frogy)
 
 #### theHarvester
 
