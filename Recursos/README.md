@@ -162,7 +162,7 @@ Plataformas con invitacion unicamente
 
 * [Crackslatinos](https://groups.google.com/forum/#!forum/crackslatinos)
 
-## Github
+## Recursos en Github
 
 * [PayloadAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings)
 * [IoT Pentest](https://github.com/IoTSecurity101/IoT-Pentest-devices-and-purpose)
