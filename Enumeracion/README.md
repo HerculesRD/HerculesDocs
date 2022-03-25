@@ -272,6 +272,9 @@ nmap -6 #usar ipv6
 nmap -T0 #de 0 a 5 el tiempo de escaneo. 5 es el mas rapido
 ```
 
+Script para encontrar vulns (mucho verbose)
+* [Vulscan](https://github.com/scipag/vulscan)
+
 # Amass
 
 Falta completar
