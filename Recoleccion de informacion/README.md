@@ -142,6 +142,7 @@ Aca deberia meter algo pero no se que.
 * [Greynose](https://viz.greynoise.io/)
 * [Fofa](https://fofa.so)
 * [PulseDive](https://pulsedive.com/)
+* [15 tools inv](https://cipher387.github.io/domain_investigation_toolbox/ip.html?)
 
 ### Busqueda generica
 
