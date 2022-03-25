@@ -32,6 +32,7 @@
 	* [Escaner CSRF](https://github.com/HerculesRD/HerculesDocs/tree/main/Enumeracion#escaner-csrf--xsrf)
 	* [Escaner SSL](https://github.com/HerculesRD/HerculesDocs/tree/main/Enumeracion#escaner-ssl)
 	* [POP3](https://github.com/HerculesRD/HerculesDocs/tree/main/Enumeracion#pop3)
+	* [Kerberos]()
 5. [Web scanners](https://github.com/HerculesRD/HerculesDocs/tree/main/Enumeracion#web-scanners)
 
 # Nmap
@@ -683,6 +684,28 @@ PASS password
 LIST #lista mensajes
 RETR numMSG #muestra mensaje
 QUIT
+```
+
+## Kerberos
+```bash
+Usuarios
+nmap -p 88 --script=krb5-enum-users --script-args="krb5-enum-users.realm='DOMAIN.LOCAL'" $IP
+msf> use auxiliary/gather/kerberos_enumusers
+
+Bruteforcing
+python kerbrute.py -dc-ip IP -users /root/htb/kb_users.txt -passwords /root/pass_common_plus.txt -threads 20 -domain DOMAIN -outputfile kb_extracted_passwords.txt
+```
+
+## IMAP
+```bash
+# Banner grabbing
+nc -nv $IP 143
+openssl s_client -connect $IP:993 -quiet
+```
+
+## IRC
+```bash
+nmap -sV --script irc-botnet-channels,irc-info,irc-unrealircd-backdoor -p 194,6660-7000 remoteip
 ```
 
 # Web scanners
