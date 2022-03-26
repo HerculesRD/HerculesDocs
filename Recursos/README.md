@@ -79,6 +79,7 @@ Plataformas con invitacion unicamente
 
 * [mstfknn](https://github.com/mstfknn/malware-sample-library)
 * [Windows Ransomware (mauri870 academical)](https://github.com/mauri870/ransomware)
+* [Malware SC vx Underground](https://github.com/vxunderground/MalwareSourceCode)
 
 ## Programacion
 
