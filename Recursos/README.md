@@ -137,6 +137,7 @@ Plataformas con invitacion unicamente
 
 * [intro a pwn the stack](https://medium.com/zh3r0/intro-to-pwn-protstar-stacks-9fcd22be2b2)
 * [Fuente de pcap y ejemplos de malware](https://malware-traffic-analysis.net/)
+* [Encontrando 0days en webapps](https://0xboku.com/2021/09/14/0dayappsecBeginnerGuide.html)
 
 ## Videos
 
