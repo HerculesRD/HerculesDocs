@@ -1,5 +1,6 @@
 # Varios
 
+* [Analisis de red](https://github.com/HerculesRD/HerculesDocs/tree/main/Varios#analisis-de-red)
 * [Reversing](https://github.com/HerculesRD/HerculesDocs/tree/main/Varios#reversing)
 * [BoF](https://github.com/HerculesRD/HerculesDocs/tree/main/Varios#BoF)
 * [Malware Analysis](https://github.com/HerculesRD/HerculesDocs/tree/main/Varios#Malware)
@@ -9,9 +10,10 @@
 * [Github](https://github.com/HerculesRD/HerculesDocs/tree/main/Varios#Github)
 * [Esteganografia](https://github.com/HerculesRD/HerculesDocs/tree/main/Varios#Esteganografia)
 
-## Wireshark
+## Analisis de red
 
-* [CheatSheet](https://github.com/HerculesRD/HerculesDocs/blob/main/Varios/Wireshark_Cheatsheet.md)
+* [Wireshark CheatSheet](https://github.com/HerculesRD/HerculesDocs/blob/main/Varios/Wireshark_Cheatsheet.md)
+* [TShark CheatSheet]()
 
 ## Reversing
 
