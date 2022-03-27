@@ -13,7 +13,7 @@
 ## Analisis de red
 
 * [Wireshark CheatSheet](https://github.com/HerculesRD/HerculesDocs/blob/main/Varios/Wireshark_Cheatsheet.md)
-* [TShark CheatSheet]()
+* [TShark CheatSheet](https://github.com/HerculesRD/HerculesDocs/blob/main/Varios/tshark_cheatsheet.md)
 
 ## Reversing
 
