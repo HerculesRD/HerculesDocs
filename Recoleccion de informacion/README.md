@@ -376,6 +376,8 @@ filename:github-recovery-codes.txt| Github 2FA Recovery Code
 ```
 ```
 
+* [Mas Shodan Dorks]()
+
 ### VirusTotal
 ```
 ```
