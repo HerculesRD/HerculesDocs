@@ -369,7 +369,7 @@ Search | Description
 filename:mega-recoverykey.txt | Mega.nz 2FA Recovery Code
 filename:github-recovery-codes.txt| Github 2FA Recovery Code
 
-* [Mas GH dorks]()
+* [Mas GH dorks](https://github.com/HerculesRD/HerculesDocs/blob/main/Recoleccion%20de%20informacion/GH%20Dorks.txt)
 
 ### Shodan
 ```
