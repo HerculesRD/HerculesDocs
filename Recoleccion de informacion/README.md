@@ -6,6 +6,7 @@
 * [Cache](https://github.com/HerculesRD/HerculesDocs/tree/main/Recoleccion%20de%20informacion#Cache)
 * [LAN](https://github.com/HerculesRD/HerculesDocs/tree/main/Recoleccion%20de%20informacion#LAN)
 * [Google Dorks](https://github.com/HerculesRD/HerculesDocs/tree/main/Recoleccion%20de%20informacion#Google-Dorks)
+* [Otros Dorks](https://github.com/HerculesRD/HerculesDocs/tree/main/Recoleccion%20de%20informacion#Otros-Dorks)
 * [Leaks](https://github.com/HerculesRD/HerculesDocs/tree/main/Recoleccion%20de%20informacion#Leaks)
 
 ## Informacion DNS
@@ -299,7 +300,7 @@ site:s3.amazonaws.com inurl:"company"
 
 ## Otros Dorks
 
-DuckDuckGo
+### DuckDuckGo
 
 Search | Description
 --------- | ------
@@ -322,7 +323,7 @@ Limit by Geography: region or r: Followed by two letter country code
 Boolean: AND, OR and parentheses (). and use space ' ' -> A and B =:> a b
 
 
-Github
+### Github
 * [GH Dorks](https://github.com/techgaun/github-dorks)
 
 Search | Description
@@ -368,11 +369,13 @@ Search | Description
 filename:mega-recoverykey.txt | Mega.nz 2FA Recovery Code
 filename:github-recovery-codes.txt| Github 2FA Recovery Code
 
-Shodan
+* [Mas GH dorks]()
+
+### Shodan
 ```
 ```
 
-VirusTotal
+### VirusTotal
 ```
 ```
 
