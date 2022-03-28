@@ -374,9 +374,33 @@ filename:github-recovery-codes.txt| Github 2FA Recovery Code
 
 ### Shodan
 ```
+city:"Bangalore"
+country:"IN" 
+geo:"56.913055,118.250862"
+server: "gws" hostname:"google"
+net:210.214.0.0/16
+os:"windows 7"
+proftpd port:21
+apache after:22/02/2009 before:14/3/2010
+title:"citrix gateway"
+html:"def_wirelesspassword"
+NETSurveillance uc-httpd
+"privileged command" GET
+"\x03\x00\x00\x0b\x06\xd0\x00\x00\x124\x00"
+"MongoDB Server Information" port:27017 -authentication
+"220" "230 Login successful." port:21
+x-jenkins 200
+hacked-router-help-sos
+NCR Port:"161"
+port:23 console gateway
+http.html:"* The wp-config.php creation script uses this file"
+"X-Recruiting:"
+"Android Debug Bridge" "Device" port:5555
+"ETH - Total speed"
+http.title:"Tesla PowerPack System" http.component:"d3" -ga3ca4f2
 ```
 
-* [Mas Shodan Dorks]()
+* [Mas Shodan Dorks](https://github.com/HerculesRD/HerculesDocs/blob/main/Recoleccion%20de%20informacion/Shodan%20Dorks.txt)
 
 ### VirusTotal
 ```
