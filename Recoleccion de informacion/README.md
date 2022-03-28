@@ -300,8 +300,9 @@ site:s3.amazonaws.com inurl:"company"
 ## Otros Dorks
 
 DuckDuckGo
-```
-Example          	Result
+
+Search | Description
+--------- | ------
 cats dogs 		Results about cats or dogs
 "cats and dogs" 	Results for exact term "cats and dogs"
 cats -dogs 		Fewer dogs in results
@@ -319,7 +320,7 @@ Time research: "Any Time" option only goes up to the past month
 definitions -> finds definitions of words or phrases ofor example: define dialectic
 Limit by Geography: region or r: Followed by two letter country code
 Boolean: AND, OR and parentheses (). and use space ' ' -> A and B =:> a b
-```
+
 
 Github
 * [GH Dorks](https://github.com/techgaun/github-dorks)
@@ -339,6 +340,33 @@ filename:passwords.doc|Passwords saved in doc file (See also .docx extesion)
 "app.config['SECRET_KEY']" extension:py|Flask Secret Key
 "https://api.mailgun.net/v3/"|Mailgun API URL with Key
 
+Keys
+
+Search | Description
+--------- | ------
+"-----BEGIN RSA PRIVATE KEY-----"|RSA Private Key 
+"-----BEGIN PRIVATE KEY-----"|Unencrypted PKCS#8 and base64 encoded Private Key
+"-----BEGIN ENCRYPTED PRIVATE KEY-----"|PEM file Private Key
+"-----BEGIN CERTIFICATE-----" extension:pem| PEM encoded SSL certificate
+
+Leak o SC de una app
+
+Search | Description
+--------- | ------
+"package com.whatsapp" extension:java|Look for code leak or reverse engineer of an Android Application.
+
+Leak de configuraciones
+
+Search | Description
+------ | -----
+app.config['SQLALCHEMY_DATABASE_URI'] | SQLAlchmy Database connection configuration leak
+
+Codigo 2fa de recuperacion
+
+Search | Description
+------ | -----
+filename:mega-recoverykey.txt | Mega.nz 2FA Recovery Code
+filename:github-recovery-codes.txt| Github 2FA Recovery Code
 
 Shodan
 ```
