@@ -373,6 +373,9 @@ filename:github-recovery-codes.txt| Github 2FA Recovery Code
 * [Mas GH dorks](https://github.com/HerculesRD/HerculesDocs/blob/main/Recoleccion%20de%20informacion/GH%20Dorks.txt)
 
 ### Shodan
+
+* [awesome shodan dorks](https://github.com/jakejarvis/awesome-shodan-queries)
+
 ```
 city:"Bangalore"
 country:"IN" 
@@ -398,6 +401,7 @@ http.html:"* The wp-config.php creation script uses this file"
 "Android Debug Bridge" "Device" port:5555
 "ETH - Total speed"
 http.title:"Tesla PowerPack System" http.component:"d3" -ga3ca4f2
+ssl.cert.issuer.cn:example.com ssl.cert.subject.cn:example.com
 ```
 
 * [Mas Shodan Dorks](https://github.com/HerculesRD/HerculesDocs/blob/main/Recoleccion%20de%20informacion/Shodan%20Dorks.txt)
