@@ -5,7 +5,7 @@ Conocer los dispositivos de red
 $ tshark -D 
 Conectar
 $ ipconfig eth0 promisc
-$ tshark -i eth0
+$ tshark -i eth0 -p
 
 Cantidad de paquetes limitada
 $ tshark -i eth0 -c 10
@@ -77,6 +77,12 @@ $ tshark -G help
 
 opciones de columnas
 $ tshark -G column-formats
+
+plugins
+$ tshark -G plugins
+
+carpetas
+$ tshark -G folders
 ```
 
 
