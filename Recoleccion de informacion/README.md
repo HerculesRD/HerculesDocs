@@ -306,23 +306,23 @@ site:s3.amazonaws.com inurl:"company"
 
 Search | Description
 --------- | ------
-cats dogs 		Results about cats or dogs
-"cats and dogs" 	Results for exact term "cats and dogs"
-cats -dogs 		Fewer dogs in results
-cats +dogs 		More dogs in results
-cats filetype:pdf 	PDFs about cats. Supported file types: pdf, doc(x), xls(x), ppt(x), html
-dogs site:example.com 	Pages about dogs from example.com
-cats -site:example.com  Pages about cats, excluding example.com
-intitle:dogs 		Page title includes the word "dogs"
-inurl:cats 		Page url includes the word "cats"
-OR " " -> Exaclty search, but that's not true
-intitle can be used just with t:
-Word In the Text: inbody: or b:
-FileType: fracking licences filetype:pdf
-Time research: "Any Time" option only goes up to the past month
-definitions -> finds definitions of words or phrases ofor example: define dialectic
-Limit by Geography: region or r: Followed by two letter country code
-Boolean: AND, OR and parentheses (). and use space ' ' -> A and B =:> a b
+cats dogs | Results about cats or dogs
+"cats and dogs" | Results for exact term "cats and dogs"
+cats -dogs | Fewer dogs in results
+cats +dogs | dogs in results
+cats filetype:pdf | PDFs about cats. Supported file types: pdf, doc(x), xls(x), ppt(x), html
+dogs site:example.com | Pages about dogs from example.com
+cats -site:example.com | Pages about cats, excluding example.com
+intitle:dogs | Page title includes the word "dogs"
+inurl:cats | Page url includes the word "cats"
+OR " " | Exaclty search, but that's not true
+intitle | can be used just with t:
+Word In the Text: | inbody: or b:
+FileType: | fracking licences filetype:pdf
+Time research: | "Any Time" option only goes up to the past month
+definitions | finds definitions of words or phrases ofor example: define dialectic
+Limit by Geography: region or r: | Followed by two letter country code
+Boolean: AND, OR and parentheses () | and use space ' ' -> A and B =:> a b
 
 ### Github
 * [GH Dorks](https://github.com/techgaun/github-dorks)
