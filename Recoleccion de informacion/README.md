@@ -297,6 +297,57 @@ site:stackoverflow.com "www.url.com"
 site:s3.amazonaws.com inurl:"company"
 ```
 
+## Otros Dorks
+
+DuckDuckGo
+```
+Example          	Result
+cats dogs 		Results about cats or dogs
+"cats and dogs" 	Results for exact term "cats and dogs"
+cats -dogs 		Fewer dogs in results
+cats +dogs 		More dogs in results
+cats filetype:pdf 	PDFs about cats. Supported file types: pdf, doc(x), xls(x), ppt(x), html
+dogs site:example.com 	Pages about dogs from example.com
+cats -site:example.com  Pages about cats, excluding example.com
+intitle:dogs 		Page title includes the word "dogs"
+inurl:cats 		Page url includes the word "cats"
+OR " " -> Exaclty search, but that's not true
+intitle can be used just with t:
+Word In the Text: inbody: or b:
+FileType: fracking licences filetype:pdf
+Time research: "Any Time" option only goes up to the past month
+definitions -> finds definitions of words or phrases ofor example: define dialectic
+Limit by Geography: region or r: Followed by two letter country code
+Boolean: AND, OR and parentheses (). and use space ' ' -> A and B =:> a b
+```
+
+Github
+* [GH Dorks](https://github.com/techgaun/github-dorks)
+
+Search | Description
+--------- | ------
+"api_hash" "api_id" "user_phone"|Telegram APP Configuration Keys (https://my.telegram.org/apps)
+"https://api.telegram.org/bot"|Telegram API URL with Key
+"aws_access_key_id" "aws_secret_access_key"|AWS API Keys
+"cloudflare_api_key" "cloudflare_email"|Cloudflare API Key and Email
+"Client ID" "client secret" "verification token"|Slack bot API Key
+"xoxp-"|Slack API Key
+"https://hooks.slack.com/"|Slack Incoming WebHook API Url with Key
+filename:passwords.txt|Passwords saved in text file
+filename:passwords.doc|Passwords saved in doc file (See also .docx extesion)
+"app.secret_key" extension=py|flask-login API Key
+"app.config['SECRET_KEY']" extension:py|Flask Secret Key
+"https://api.mailgun.net/v3/"|Mailgun API URL with Key
+
+
+Shodan
+```
+```
+
+VirusTotal
+```
+```
+
 ## Leaks
 
 * [pwndb](https://pwndb2am4tzkvold.tor2web.io/)
