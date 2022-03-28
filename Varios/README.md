@@ -129,6 +129,32 @@ exec("__import__('os').system('ls')")
 commands.getoutput('ls')
 ```
 
+Tshark en python
+
+$ pip3 install pyshark
+```python
+# Live capture
+import pysgark
+capture = pyshark.LiveCapture(interface=='eth0')
+capture.sniff(timeout=5)
+capture
+
+# Representar lo capturado
+capture[1].pretty_print()
+
+# Largo del paquete
+pkt.layers
+pkt.eth.src
+pkt.eth.dst
+pkt.eth.type
+
+# Propiedades IP
+dir (pkt,ip)
+pkt.ip.src
+pkt.ip.dst
+pkt.ip.pretty_print()
+```
+
 ## Docker
 
 ```bash
