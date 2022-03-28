@@ -190,6 +190,7 @@ arp -a
 * [GRecon](https://github.com/adnane-X-tebbaa/GRecon)
 * [DorkSearch](https://dorksearch.com/)
 * [Code Repo Google Custom SE](https://cipher387.github.io/code_repository_google_custom_search_engines/)
+* [SiteDorks](https://github.com/Zarcolio/sitedorks)
 
 ### Subdominios
 
@@ -323,7 +324,6 @@ definitions -> finds definitions of words or phrases ofor example: define dialec
 Limit by Geography: region or r: Followed by two letter country code
 Boolean: AND, OR and parentheses (). and use space ' ' -> A and B =:> a b
 
-
 ### Github
 * [GH Dorks](https://github.com/techgaun/github-dorks)
 
@@ -405,10 +405,6 @@ ssl.cert.issuer.cn:example.com ssl.cert.subject.cn:example.com
 ```
 
 * [Mas Shodan Dorks](https://github.com/HerculesRD/HerculesDocs/blob/main/Recoleccion%20de%20informacion/Shodan%20Dorks.txt)
-
-### VirusTotal
-```
-```
 
 ## Leaks
 
