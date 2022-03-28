@@ -189,6 +189,7 @@ arp -a
 
 * [GRecon](https://github.com/adnane-X-tebbaa/GRecon)
 * [DorkSearch](https://dorksearch.com/)
+* [Code Repo Google Custom SE](https://cipher387.github.io/code_repository_google_custom_search_engines/)
 
 ### Subdominios
 
