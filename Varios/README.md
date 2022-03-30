@@ -64,10 +64,6 @@ echo evill!
 ^[[2Aecho instalando script...
 ```
 
-### Malware DDBB
-
-* [abuse bazaar](https://bazaar.abuse.ch/browse/)
-
 ### Blacklists
 
 * [Abuse URLs maliciosas](https://urlhaus.abuse.ch/browse/)
