@@ -17,6 +17,7 @@
 - [ ]  Broken Link Hijacking
 - [ ]  Internet Search Engine Discovery
 - [ ]  Misconfigured Cloud Storage
+- [ ]  Censys search for subdomains: services.tls.certificates.leaf_data.names: victim.com (settings -> virtual hosts -> include)
 
 # Funcionalidad de registro
 - [ ]  Check for duplicate registration/Overwrite existing user
